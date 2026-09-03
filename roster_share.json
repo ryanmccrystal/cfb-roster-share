@@ -1,31 +1,15 @@
 {
-  "last_updated": "2026-09-03T22:42:57.633007+00:00",
+  "last_updated": "2026-09-03T23:10:18.767481+00:00",
   "period": 1,
   "league_teams": 73,
   "players": [
     {
-      "Player": "Manning, Arch",
-      "Team": "Tex",
-      "Pos": "QB",
-      "Teams": 33,
-      "League Teams": 73,
-      "Roster Share": 45.2
-    },
-    {
-      "Player": "Mateer, John",
-      "Team": "Okla",
-      "Pos": "QB",
-      "Teams": 27,
-      "League Teams": 73,
-      "Roster Share": 37.0
-    },
-    {
-      "Player": "Hawkins, Caleb",
-      "Team": "OkSt",
+      "Player": "Raymond, Antwan",
+      "Team": "Rut",
       "Pos": "RB",
-      "Teams": 48,
+      "Teams": 51,
       "League Teams": 73,
-      "Roster Share": 65.8
+      "Roster Share": 69.9
     },
     {
       "Player": "Baugh, Jadan",
@@ -36,38 +20,6 @@
       "Roster Share": 67.1
     },
     {
-      "Player": "Sategna, Isaiah",
-      "Team": "Okla",
-      "Pos": "WR",
-      "Teams": 26,
-      "League Teams": 73,
-      "Roster Share": 35.6
-    },
-    {
-      "Player": "Raymond, Antwan",
-      "Team": "Rut",
-      "Pos": "RB",
-      "Teams": 51,
-      "League Teams": 73,
-      "Roster Share": 69.9
-    },
-    {
-      "Player": "Roberts, Jamal",
-      "Team": "Mizzou",
-      "Pos": "RB",
-      "Teams": 31,
-      "League Teams": 73,
-      "Roster Share": 42.5
-    },
-    {
-      "Player": "Mestemaker, Drew",
-      "Team": "OkSt",
-      "Pos": "QB",
-      "Teams": 18,
-      "League Teams": 73,
-      "Roster Share": 24.7
-    },
-    {
       "Player": "Toney, Malachi",
       "Team": "MiaFL",
       "Pos": "WR",
@@ -76,12 +28,12 @@
       "Roster Share": 67.1
     },
     {
-      "Player": "Taylor, Kamario",
-      "Team": "MissSt",
-      "Pos": "QB",
-      "Teams": 26,
+      "Player": "Hawkins, Caleb",
+      "Team": "OkSt",
+      "Pos": "RB",
+      "Teams": 48,
       "League Teams": 73,
-      "Roster Share": 35.6
+      "Roster Share": 65.8
     },
     {
       "Player": "Smith, Jeremiah",
@@ -92,36 +44,28 @@
       "Roster Share": 65.8
     },
     {
-      "Player": "Reed, Marcel",
-      "Team": "TxAM",
-      "Pos": "QB",
-      "Teams": 8,
-      "League Teams": 73,
-      "Roster Share": 11.0
-    },
-    {
-      "Player": "Sutton, Lucky",
-      "Team": "SDSU",
+      "Player": "Lacy, Kewan",
+      "Team": "Miss",
       "Pos": "RB",
-      "Teams": 24,
+      "Teams": 39,
       "League Teams": 73,
-      "Roster Share": 32.9
+      "Roster Share": 53.4
     },
     {
-      "Player": "Williams, Rashid",
-      "Team": "Wash",
-      "Pos": "WR",
-      "Teams": 1,
+      "Player": "Cook, Cameron",
+      "Team": "WVU",
+      "Pos": "RB",
+      "Teams": 38,
       "League Teams": 73,
-      "Roster Share": 1.4
+      "Roster Share": 52.1
     },
     {
-      "Player": "Duff, KJ",
-      "Team": "Rut",
-      "Pos": "WR",
-      "Teams": 25,
+      "Player": "Manning, Arch",
+      "Team": "Tex",
+      "Pos": "QB",
+      "Teams": 33,
       "League Teams": 73,
-      "Roster Share": 34.2
+      "Roster Share": 45.2
     },
     {
       "Player": "Thomas, Amare",
@@ -132,6 +76,46 @@
       "Roster Share": 45.2
     },
     {
+      "Player": "Roberts, Jamal",
+      "Team": "Mizzou",
+      "Pos": "RB",
+      "Teams": 31,
+      "League Teams": 73,
+      "Roster Share": 42.5
+    },
+    {
+      "Player": "Bishop, DeSean",
+      "Team": "Tenn",
+      "Pos": "RB",
+      "Teams": 28,
+      "League Teams": 73,
+      "Roster Share": 38.4
+    },
+    {
+      "Player": "Dampier, Devon",
+      "Team": "Utah",
+      "Pos": "QB",
+      "Teams": 28,
+      "League Teams": 73,
+      "Roster Share": 38.4
+    },
+    {
+      "Player": "Mateer, John",
+      "Team": "Okla",
+      "Pos": "QB",
+      "Teams": 27,
+      "League Teams": 73,
+      "Roster Share": 37.0
+    },
+    {
+      "Player": "Martin, LJ",
+      "Team": "BYU",
+      "Pos": "RB",
+      "Teams": 26,
+      "League Teams": 73,
+      "Roster Share": 35.6
+    },
+    {
       "Player": "Minicucci, Nick",
       "Team": "UD",
       "Pos": "QB",
@@ -140,25 +124,65 @@
       "Roster Share": 35.6
     },
     {
-      "Player": "Scott, DJ",
-      "Team": "NDSU",
-      "Pos": "RB",
-      "Teams": 1,
+      "Player": "Sategna, Isaiah",
+      "Team": "Okla",
+      "Pos": "WR",
+      "Teams": 26,
       "League Teams": 73,
-      "Roster Share": 1.4
+      "Roster Share": 35.6
     },
     {
-      "Player": "Lacy, Kewan",
-      "Team": "Miss",
-      "Pos": "RB",
-      "Teams": 39,
+      "Player": "Taylor, Kamario",
+      "Team": "MissSt",
+      "Pos": "QB",
+      "Teams": 26,
       "League Teams": 73,
-      "Roster Share": 53.4
+      "Roster Share": 35.6
+    },
+    {
+      "Player": "Duff, KJ",
+      "Team": "Rut",
+      "Pos": "WR",
+      "Teams": 25,
+      "League Teams": 73,
+      "Roster Share": 34.2
+    },
+    {
+      "Player": "Coleman, Cam",
+      "Team": "Tex",
+      "Pos": "WR",
+      "Teams": 24,
+      "League Teams": 73,
+      "Roster Share": 32.9
+    },
+    {
+      "Player": "Sutton, Lucky",
+      "Team": "SDSU",
+      "Pos": "RB",
+      "Teams": 24,
+      "League Teams": 73,
+      "Roster Share": 32.9
+    },
+    {
+      "Player": "Taylor, Darius",
+      "Team": "MIN",
+      "Pos": "RB",
+      "Teams": 22,
+      "League Teams": 73,
+      "Roster Share": 30.1
     },
     {
       "Player": "Haynes, Justice",
       "Team": "GATec",
       "Pos": "RB",
+      "Teams": 18,
+      "League Teams": 73,
+      "Roster Share": 24.7
+    },
+    {
+      "Player": "Mestemaker, Drew",
+      "Team": "OkSt",
+      "Pos": "QB",
       "Teams": 18,
       "League Teams": 73,
       "Roster Share": 24.7
@@ -172,76 +196,12 @@
       "Roster Share": 23.3
     },
     {
-      "Player": "Sparks, Beau",
-      "Team": "TxSt",
+      "Player": "Coleman-Williams, Ryan",
+      "Team": "Bama",
       "Pos": "WR",
-      "Teams": 5,
+      "Teams": 16,
       "League Teams": 73,
-      "Roster Share": 6.8
-    },
-    {
-      "Player": "Weigman, Conner",
-      "Team": "Hou",
-      "Pos": "QB",
-      "Teams": 14,
-      "League Teams": 73,
-      "Roster Share": 19.2
-    },
-    {
-      "Player": "Bishop, DeSean",
-      "Team": "Tenn",
-      "Pos": "RB",
-      "Teams": 28,
-      "League Teams": 73,
-      "Roster Share": 38.4
-    },
-    {
-      "Player": "Turner, JaKyrian",
-      "Team": "Pitt",
-      "Pos": "RB",
-      "Teams": 3,
-      "League Teams": 73,
-      "Roster Share": 4.1
-    },
-    {
-      "Player": "Cook, Cameron",
-      "Team": "WVU",
-      "Pos": "RB",
-      "Teams": 38,
-      "League Teams": 73,
-      "Roster Share": 52.1
-    },
-    {
-      "Player": "Williams, Aneyas",
-      "Team": "ND",
-      "Pos": "RB",
-      "Teams": 10,
-      "League Teams": 73,
-      "Roster Share": 13.7
-    },
-    {
-      "Player": "Coleman, Cam",
-      "Team": "Tex",
-      "Pos": "WR",
-      "Teams": 24,
-      "League Teams": 73,
-      "Roster Share": 32.9
-    },
-    {
-      "Player": "Wesco, Bryant",
-      "Team": "Clem",
-      "Pos": "WR",
-      "Teams": 1,
-      "League Teams": 73,
-      "Roster Share": 1.4
-    },
-    {
-      "Player": "Dampier, Devon",
-      "Team": "Utah",
-      "Pos": "QB",
-      "Teams": 28,
-      "League Teams": 73,
-      "Roster Share": 38.4
+      "Roster Share": 21.9
     },
     {
       "Player": "Marshall, Jordan",
@@ -252,60 +212,20 @@
       "Roster Share": 21.9
     },
     {
-      "Player": "Maiava, Jayden",
-      "Team": "USC",
+      "Player": "King, Tyler",
+      "Team": "NMS",
+      "Pos": "WR",
+      "Teams": 15,
+      "League Teams": 73,
+      "Roster Share": 20.5
+    },
+    {
+      "Player": "Weigman, Conner",
+      "Team": "Hou",
       "Pos": "QB",
-      "Teams": 6,
+      "Teams": 14,
       "League Teams": 73,
-      "Roster Share": 8.2
-    },
-    {
-      "Player": "Uiliata, Liatama",
-      "Team": "Hawaii",
-      "Pos": "WR",
-      "Teams": 2,
-      "League Teams": 73,
-      "Roster Share": 2.7
-    },
-    {
-      "Player": "Henderson, Will",
-      "Team": "UTSA",
-      "Pos": "RB",
-      "Teams": 10,
-      "League Teams": 73,
-      "Roster Share": 13.7
-    },
-    {
-      "Player": "Roebuck, Dezmen",
-      "Team": "Wash",
-      "Pos": "WR",
-      "Teams": 5,
-      "League Teams": 73,
-      "Roster Share": 6.8
-    },
-    {
-      "Player": "Williams, Demond",
-      "Team": "Wash",
-      "Pos": "QB",
-      "Teams": 12,
-      "League Teams": 73,
-      "Roster Share": 16.4
-    },
-    {
-      "Player": "Craver, Mario",
-      "Team": "TxAM",
-      "Pos": "WR",
-      "Teams": 8,
-      "League Teams": 73,
-      "Roster Share": 11.0
-    },
-    {
-      "Player": "Wilson, Sean",
-      "Team": "UD",
-      "Pos": "WR",
-      "Teams": 9,
-      "League Teams": 73,
-      "Roster Share": 12.3
+      "Roster Share": 19.2
     },
     {
       "Player": "Szarka, Liam",
@@ -316,12 +236,68 @@
       "Roster Share": 17.8
     },
     {
-      "Player": "Martin, LJ",
-      "Team": "BYU",
-      "Pos": "RB",
-      "Teams": 26,
+      "Player": "Amador, David",
+      "Team": "UTSA",
+      "Pos": "WR",
+      "Teams": 12,
       "League Teams": 73,
-      "Roster Share": 35.6
+      "Roster Share": 16.4
+    },
+    {
+      "Player": "Hernandez, Carlos",
+      "Team": "Wake",
+      "Pos": "WR",
+      "Teams": 12,
+      "League Teams": 73,
+      "Roster Share": 16.4
+    },
+    {
+      "Player": "Marsh, Nick",
+      "Team": "Ind",
+      "Pos": "WR",
+      "Teams": 12,
+      "League Teams": 73,
+      "Roster Share": 16.4
+    },
+    {
+      "Player": "Williams, Demond",
+      "Team": "Wash",
+      "Pos": "QB",
+      "Teams": 12,
+      "League Teams": 73,
+      "Roster Share": 16.4
+    },
+    {
+      "Player": "Brown, Byrum",
+      "Team": "Aub",
+      "Pos": "QB",
+      "Teams": 11,
+      "League Teams": 73,
+      "Roster Share": 15.1
+    },
+    {
+      "Player": "Henderson, Will",
+      "Team": "UTSA",
+      "Pos": "RB",
+      "Teams": 10,
+      "League Teams": 73,
+      "Roster Share": 13.7
+    },
+    {
+      "Player": "Williams, Aneyas",
+      "Team": "ND",
+      "Pos": "RB",
+      "Teams": 10,
+      "League Teams": 73,
+      "Roster Share": 13.7
+    },
+    {
+      "Player": "Arnold, Jackson",
+      "Team": "UNLV",
+      "Pos": "QB",
+      "Teams": 9,
+      "League Teams": 73,
+      "Roster Share": 12.3
     },
     {
       "Player": "Chambliss, Trinidad",
@@ -332,44 +308,12 @@
       "Roster Share": 12.3
     },
     {
-      "Player": "Coleman-Williams, Ryan",
-      "Team": "Bama",
-      "Pos": "WR",
-      "Teams": 16,
-      "League Teams": 73,
-      "Roster Share": 21.9
-    },
-    {
-      "Player": "Taylor, Darius",
-      "Team": "MIN",
+      "Player": "Dendy, Austyn",
+      "Team": "BGSU",
       "Pos": "RB",
-      "Teams": 22,
+      "Teams": 9,
       "League Teams": 73,
-      "Roster Share": 30.1
-    },
-    {
-      "Player": "Woodson, Braxton",
-      "Team": "Navy",
-      "Pos": "QB",
-      "Teams": 5,
-      "League Teams": 73,
-      "Roster Share": 6.8
-    },
-    {
-      "Player": "Amador, David",
-      "Team": "UTSA",
-      "Pos": "WR",
-      "Teams": 12,
-      "League Teams": 73,
-      "Roster Share": 16.4
-    },
-    {
-      "Player": "Bothwell, Fluff",
-      "Team": "MissSt",
-      "Pos": "RB",
-      "Teams": 5,
-      "League Teams": 73,
-      "Roster Share": 6.8
+      "Roster Share": 12.3
     },
     {
       "Player": "Williams, DeJuan",
@@ -380,56 +324,40 @@
       "Roster Share": 12.3
     },
     {
-      "Player": "King, Tyler",
-      "Team": "NMS",
+      "Player": "Wilson, Sean",
+      "Team": "UD",
       "Pos": "WR",
-      "Teams": 15,
+      "Teams": 9,
       "League Teams": 73,
-      "Roster Share": 20.5
+      "Roster Share": 12.3
     },
     {
-      "Player": "Henicle, Quinn",
-      "Team": "OD",
-      "Pos": "QB",
-      "Teams": 5,
-      "League Teams": 73,
-      "Roster Share": 6.8
-    },
-    {
-      "Player": "Smith, Onterrio",
-      "Team": "SacSt",
+      "Player": "Craver, Mario",
+      "Team": "TxAM",
       "Pos": "WR",
-      "Teams": 3,
+      "Teams": 8,
       "League Teams": 73,
-      "Roster Share": 4.1
-    },
-    {
-      "Player": "Allen, Owen",
-      "Team": "AF",
-      "Pos": "RB",
-      "Teams": 1,
-      "League Teams": 73,
-      "Roster Share": 1.4
-    },
-    {
-      "Player": "Jacobs, Javen",
-      "Team": "UtSt",
-      "Pos": "RB",
-      "Teams": 4,
-      "League Teams": 73,
-      "Roster Share": 5.5
-    },
-    {
-      "Player": "Jackson, Quinton",
-      "Team": "Rice",
-      "Pos": "RB",
-      "Teams": 1,
-      "League Teams": 73,
-      "Roster Share": 1.4
+      "Roster Share": 11.0
     },
     {
       "Player": "Creel, Caden",
       "Team": "JacSt",
+      "Pos": "QB",
+      "Teams": 8,
+      "League Teams": 73,
+      "Roster Share": 11.0
+    },
+    {
+      "Player": "McClure, Jerry",
+      "Team": "SJSU",
+      "Pos": "WR",
+      "Teams": 8,
+      "League Teams": 73,
+      "Roster Share": 11.0
+    },
+    {
+      "Player": "Reed, Marcel",
+      "Team": "TxAM",
       "Pos": "QB",
       "Teams": 8,
       "League Teams": 73,
@@ -444,56 +372,24 @@
       "Roster Share": 11.0
     },
     {
-      "Player": "Barnes, Jaden",
-      "Team": "UNCC",
-      "Pos": "WR",
-      "Teams": 5,
-      "League Teams": 73,
-      "Roster Share": 6.8
-    },
-    {
-      "Player": "Evans, Anthony",
-      "Team": "MissSt",
-      "Pos": "WR",
-      "Teams": 5,
-      "League Teams": 73,
-      "Roster Share": 6.8
-    },
-    {
-      "Player": "Hillstead, McCae",
-      "Team": "UtSt",
+      "Player": "Hellums, Cale",
+      "Team": "Army",
       "Pos": "QB",
-      "Teams": 1,
+      "Teams": 7,
       "League Teams": 73,
-      "Roster Share": 1.4
+      "Roster Share": 9.6
+    },
+    {
+      "Player": "Johnson, Avery",
+      "Team": "K St",
+      "Pos": "QB",
+      "Teams": 7,
+      "League Teams": 73,
+      "Roster Share": 9.6
     },
     {
       "Player": "Alexander, Sedrick",
       "Team": "Vand",
-      "Pos": "RB",
-      "Teams": 6,
-      "League Teams": 73,
-      "Roster Share": 8.2
-    },
-    {
-      "Player": "Hernandez, Carlos",
-      "Team": "Wake",
-      "Pos": "WR",
-      "Teams": 12,
-      "League Teams": 73,
-      "Roster Share": 16.4
-    },
-    {
-      "Player": "Gagliano, Roman",
-      "Team": "MidTN",
-      "Pos": "QB",
-      "Teams": 3,
-      "League Teams": 73,
-      "Roster Share": 4.1
-    },
-    {
-      "Player": "Mohammed, Adam",
-      "Team": "Cal",
       "Pos": "RB",
       "Teams": 6,
       "League Teams": 73,
@@ -508,6 +404,38 @@
       "Roster Share": 8.2
     },
     {
+      "Player": "Maiava, Jayden",
+      "Team": "USC",
+      "Pos": "QB",
+      "Teams": 6,
+      "League Teams": 73,
+      "Roster Share": 8.2
+    },
+    {
+      "Player": "Mohammed, Adam",
+      "Team": "Cal",
+      "Pos": "RB",
+      "Teams": 6,
+      "League Teams": 73,
+      "Roster Share": 8.2
+    },
+    {
+      "Player": "Barnes, Jaden",
+      "Team": "UNCC",
+      "Pos": "WR",
+      "Teams": 5,
+      "League Teams": 73,
+      "Roster Share": 6.8
+    },
+    {
+      "Player": "Bothwell, Fluff",
+      "Team": "MissSt",
+      "Pos": "RB",
+      "Teams": 5,
+      "League Teams": 73,
+      "Roster Share": 6.8
+    },
+    {
       "Player": "Devereaux, Nick",
       "Team": "E Mi",
       "Pos": "WR",
@@ -516,116 +444,12 @@
       "Roster Share": 6.8
     },
     {
-      "Player": "Brown, Cameran",
-      "Team": "GASt",
-      "Pos": "QB",
-      "Teams": 3,
-      "League Teams": 73,
-      "Roster Share": 4.1
-    },
-    {
-      "Player": "Brandon, Faizon",
-      "Team": "Tenn",
-      "Pos": "QB",
-      "Teams": 2,
-      "League Teams": 73,
-      "Roster Share": 2.7
-    },
-    {
-      "Player": "Brown, Byrum",
-      "Team": "Aub",
-      "Pos": "QB",
-      "Teams": 11,
-      "League Teams": 73,
-      "Roster Share": 15.1
-    },
-    {
-      "Player": "Marsh, Andrew",
-      "Team": "Mich",
+      "Player": "Evans, Anthony",
+      "Team": "MissSt",
       "Pos": "WR",
-      "Teams": 1,
+      "Teams": 5,
       "League Teams": 73,
-      "Roster Share": 1.4
-    },
-    {
-      "Player": "Ford, Micah",
-      "Team": "Stan",
-      "Pos": "RB",
-      "Teams": 1,
-      "League Teams": 73,
-      "Roster Share": 1.4
-    },
-    {
-      "Player": "Marsh, Nick",
-      "Team": "Ind",
-      "Pos": "WR",
-      "Teams": 12,
-      "League Teams": 73,
-      "Roster Share": 16.4
-    },
-    {
-      "Player": "Matthews, Mike",
-      "Team": "Tenn",
-      "Pos": "WR",
-      "Teams": 2,
-      "League Teams": 73,
-      "Roster Share": 2.7
-    },
-    {
-      "Player": "Barnes, Christopher",
-      "Team": "OkSt",
-      "Pos": "WR",
-      "Teams": 2,
-      "League Teams": 73,
-      "Roster Share": 2.7
-    },
-    {
-      "Player": "Winfield, DWayne Lunch",
-      "Team": "ULLaf",
-      "Pos": "QB",
-      "Teams": 4,
-      "League Teams": 73,
-      "Roster Share": 5.5
-    },
-    {
-      "Player": "Becker, Charlie",
-      "Team": "Ind",
-      "Pos": "WR",
-      "Teams": 3,
-      "League Teams": 73,
-      "Roster Share": 4.1
-    },
-    {
-      "Player": "Dendy, Austyn",
-      "Team": "BGSU",
-      "Pos": "RB",
-      "Teams": 9,
-      "League Teams": 73,
-      "Roster Share": 12.3
-    },
-    {
-      "Player": "Arnold, Jackson",
-      "Team": "UNLV",
-      "Pos": "QB",
-      "Teams": 9,
-      "League Teams": 73,
-      "Roster Share": 12.3
-    },
-    {
-      "Player": "Johnson, Avery",
-      "Team": "K St",
-      "Pos": "QB",
-      "Teams": 7,
-      "League Teams": 73,
-      "Roster Share": 9.6
-    },
-    {
-      "Player": "Fletcher, Mark",
-      "Team": "MiaFL",
-      "Pos": "RB",
-      "Teams": 1,
-      "League Teams": 73,
-      "Roster Share": 1.4
+      "Roster Share": 6.8
     },
     {
       "Player": "Harbor, Nyck",
@@ -636,20 +460,148 @@
       "Roster Share": 6.8
     },
     {
-      "Player": "Hellums, Cale",
-      "Team": "Army",
+      "Player": "Henicle, Quinn",
+      "Team": "OD",
       "Pos": "QB",
-      "Teams": 7,
+      "Teams": 5,
       "League Teams": 73,
-      "Roster Share": 9.6
+      "Roster Share": 6.8
     },
     {
-      "Player": "Robinson, Duce",
-      "Team": "FlaSt",
+      "Player": "Roebuck, Dezmen",
+      "Team": "Wash",
       "Pos": "WR",
-      "Teams": 1,
+      "Teams": 5,
       "League Teams": 73,
-      "Roster Share": 1.4
+      "Roster Share": 6.8
+    },
+    {
+      "Player": "Sparks, Beau",
+      "Team": "TxSt",
+      "Pos": "WR",
+      "Teams": 5,
+      "League Teams": 73,
+      "Roster Share": 6.8
+    },
+    {
+      "Player": "Jackson, Joe",
+      "Team": "K St",
+      "Pos": "RB",
+      "Teams": 4,
+      "League Teams": 73,
+      "Roster Share": 5.5
+    },
+    {
+      "Player": "Jacobs, Javen",
+      "Team": "UtSt",
+      "Pos": "RB",
+      "Teams": 4,
+      "League Teams": 73,
+      "Roster Share": 5.5
+    },
+    {
+      "Player": "Messer, Easton",
+      "Team": "FlAtl",
+      "Pos": "WR",
+      "Teams": 4,
+      "League Teams": 73,
+      "Roster Share": 5.5
+    },
+    {
+      "Player": "Winfield, DWayne Lunch",
+      "Team": "ULLaf",
+      "Pos": "QB",
+      "Teams": 4,
+      "League Teams": 73,
+      "Roster Share": 5.5
+    },
+    {
+      "Player": "Woodson, Braxton",
+      "Team": "Navy",
+      "Pos": "QB",
+      "Teams": 4,
+      "League Teams": 73,
+      "Roster Share": 5.5
+    },
+    {
+      "Player": "Baxter, Cedric",
+      "Team": "KY",
+      "Pos": "RB",
+      "Teams": 3,
+      "League Teams": 73,
+      "Roster Share": 4.1
+    },
+    {
+      "Player": "Becker, Charlie",
+      "Team": "Ind",
+      "Pos": "WR",
+      "Teams": 3,
+      "League Teams": 73,
+      "Roster Share": 4.1
+    },
+    {
+      "Player": "Brown, Cameran",
+      "Team": "GASt",
+      "Pos": "QB",
+      "Teams": 3,
+      "League Teams": 73,
+      "Roster Share": 4.1
+    },
+    {
+      "Player": "Edwards, Cam",
+      "Team": "MSU",
+      "Pos": "RB",
+      "Teams": 3,
+      "League Teams": 73,
+      "Roster Share": 4.1
+    },
+    {
+      "Player": "Gagliano, Roman",
+      "Team": "MidTN",
+      "Pos": "QB",
+      "Teams": 3,
+      "League Teams": 73,
+      "Roster Share": 4.1
+    },
+    {
+      "Player": "Mosley, Trent",
+      "Team": "USC",
+      "Pos": "WR",
+      "Teams": 3,
+      "League Teams": 73,
+      "Roster Share": 4.1
+    },
+    {
+      "Player": "Sellers, LaNorris",
+      "Team": "SCar",
+      "Pos": "QB",
+      "Teams": 3,
+      "League Teams": 73,
+      "Roster Share": 4.1
+    },
+    {
+      "Player": "Smith, Onterrio",
+      "Team": "SacSt",
+      "Pos": "WR",
+      "Teams": 3,
+      "League Teams": 73,
+      "Roster Share": 4.1
+    },
+    {
+      "Player": "Turner, JaKyrian",
+      "Team": "Pitt",
+      "Pos": "RB",
+      "Teams": 3,
+      "League Teams": 73,
+      "Roster Share": 4.1
+    },
+    {
+      "Player": "Wilde, Griffin",
+      "Team": "NW",
+      "Pos": "WR",
+      "Teams": 3,
+      "League Teams": 73,
+      "Roster Share": 4.1
     },
     {
       "Player": "Young, Wyatt",
@@ -658,6 +610,70 @@
       "Teams": 3,
       "League Teams": 73,
       "Roster Share": 4.1
+    },
+    {
+      "Player": "Barnes, Christopher",
+      "Team": "OkSt",
+      "Pos": "WR",
+      "Teams": 2,
+      "League Teams": 73,
+      "Roster Share": 2.7
+    },
+    {
+      "Player": "Barnett, Alonza",
+      "Team": "UCF",
+      "Pos": "QB",
+      "Teams": 2,
+      "League Teams": 73,
+      "Roster Share": 2.7
+    },
+    {
+      "Player": "Brandon, Faizon",
+      "Team": "Tenn",
+      "Pos": "QB",
+      "Teams": 2,
+      "League Teams": 73,
+      "Roster Share": 2.7
+    },
+    {
+      "Player": "Brown, Jayce",
+      "Team": "LSU",
+      "Pos": "WR",
+      "Teams": 2,
+      "League Teams": 73,
+      "Roster Share": 2.7
+    },
+    {
+      "Player": "Brown, Samuel",
+      "Team": "Tem",
+      "Pos": "RB",
+      "Teams": 2,
+      "League Teams": 73,
+      "Roster Share": 2.7
+    },
+    {
+      "Player": "Dickey, Cameron",
+      "Team": "TxTch",
+      "Pos": "RB",
+      "Teams": 2,
+      "League Teams": 73,
+      "Roster Share": 2.7
+    },
+    {
+      "Player": "Dixon, Collin",
+      "Team": "Ill",
+      "Pos": "WR",
+      "Teams": 2,
+      "League Teams": 73,
+      "Roster Share": 2.7
+    },
+    {
+      "Player": "Eager, Anthony",
+      "Team": "SoAl",
+      "Pos": "WR",
+      "Teams": 2,
+      "League Teams": 73,
+      "Roster Share": 2.7
     },
     {
       "Player": "Hoover, Josh",
@@ -676,78 +692,6 @@
       "Roster Share": 2.7
     },
     {
-      "Player": "Simmons, Austin",
-      "Team": "Mizzou",
-      "Pos": "QB",
-      "Teams": 1,
-      "League Teams": 73,
-      "Roster Share": 1.4
-    },
-    {
-      "Player": "Richard, Turbo",
-      "Team": "Ind",
-      "Pos": "RB",
-      "Teams": 1,
-      "League Teams": 73,
-      "Roster Share": 1.4
-    },
-    {
-      "Player": "Dickey, Cameron",
-      "Team": "TxTch",
-      "Pos": "RB",
-      "Teams": 2,
-      "League Teams": 73,
-      "Roster Share": 2.7
-    },
-    {
-      "Player": "Frazier, Nate",
-      "Team": "UGA",
-      "Pos": "RB",
-      "Teams": 1,
-      "League Teams": 73,
-      "Roster Share": 1.4
-    },
-    {
-      "Player": "Baxter, Cedric",
-      "Team": "KY",
-      "Pos": "RB",
-      "Teams": 3,
-      "League Teams": 73,
-      "Roster Share": 4.1
-    },
-    {
-      "Player": "Wade, Dylan",
-      "Team": "UCF",
-      "Pos": "TE",
-      "Teams": 2,
-      "League Teams": 73,
-      "Roster Share": 2.7
-    },
-    {
-      "Player": "Parker, Wayshawn",
-      "Team": "Utah",
-      "Pos": "RB",
-      "Teams": 2,
-      "League Teams": 73,
-      "Roster Share": 2.7
-    },
-    {
-      "Player": "Green, TreyDez",
-      "Team": "LSU",
-      "Pos": "TE",
-      "Teams": 1,
-      "League Teams": 73,
-      "Roster Share": 1.4
-    },
-    {
-      "Player": "Johnson, Jamari",
-      "Team": "Oreg",
-      "Pos": "TE",
-      "Teams": 1,
-      "League Teams": 73,
-      "Roster Share": 1.4
-    },
-    {
       "Player": "Leavitt, Sam",
       "Team": "LSU",
       "Pos": "QB",
@@ -756,208 +700,8 @@
       "Roster Share": 2.7
     },
     {
-      "Player": "Dixon, Collin",
-      "Team": "Ill",
-      "Pos": "WR",
-      "Teams": 2,
-      "League Teams": 73,
-      "Roster Share": 2.7
-    },
-    {
-      "Player": "McClure, Jerry",
-      "Team": "SJSU",
-      "Pos": "WR",
-      "Teams": 8,
-      "League Teams": 73,
-      "Roster Share": 11.0
-    },
-    {
-      "Player": "Davison, Jordon",
-      "Team": "Oreg",
-      "Pos": "RB",
-      "Teams": 1,
-      "League Teams": 73,
-      "Roster Share": 1.4
-    },
-    {
-      "Player": "Brown, Raleek",
-      "Team": "Tex",
-      "Pos": "RB",
-      "Teams": 1,
-      "League Teams": 73,
-      "Roster Share": 1.4
-    },
-    {
-      "Player": "Richardson, Tre",
-      "Team": "Lou",
-      "Pos": "WR",
-      "Teams": 2,
-      "League Teams": 73,
-      "Roster Share": 2.7
-    },
-    {
-      "Player": "Messer, Easton",
-      "Team": "FlAtl",
-      "Pos": "WR",
-      "Teams": 4,
-      "League Teams": 73,
-      "Roster Share": 5.5
-    },
-    {
-      "Player": "Alexander, Hilton",
-      "Team": "Miss",
-      "Pos": "WR",
-      "Teams": 1,
-      "League Teams": 73,
-      "Roster Share": 1.4
-    },
-    {
-      "Player": "Edwards, Cam",
-      "Team": "MSU",
-      "Pos": "RB",
-      "Teams": 3,
-      "League Teams": 73,
-      "Roster Share": 4.1
-    },
-    {
-      "Player": "Brown, Isaac",
-      "Team": "Lou",
-      "Pos": "RB",
-      "Teams": 1,
-      "League Teams": 73,
-      "Roster Share": 1.4
-    },
-    {
-      "Player": "Raphael, Kendrick",
-      "Team": "SMU",
-      "Pos": "RB",
-      "Teams": 1,
-      "League Teams": 73,
-      "Roster Share": 1.4
-    },
-    {
-      "Player": "Moore, Dakorien",
-      "Team": "Oreg",
-      "Pos": "WR",
-      "Teams": 2,
-      "League Teams": 73,
-      "Roster Share": 2.7
-    },
-    {
-      "Player": "Brown, Jayce",
-      "Team": "LSU",
-      "Pos": "WR",
-      "Teams": 2,
-      "League Teams": 73,
-      "Roster Share": 2.7
-    },
-    {
-      "Player": "Kromah, Ousmane",
-      "Team": "FlaSt",
-      "Pos": "RB",
-      "Teams": 1,
-      "League Teams": 73,
-      "Roster Share": 1.4
-    },
-    {
-      "Player": "Weaver, Luke",
-      "Team": "SJSU",
-      "Pos": "QB",
-      "Teams": 1,
-      "League Teams": 73,
-      "Roster Share": 1.4
-    },
-    {
-      "Player": "Cobb, Jeremiah",
-      "Team": "Aub",
-      "Pos": "RB",
-      "Teams": 1,
-      "League Teams": 73,
-      "Roster Share": 1.4
-    },
-    {
-      "Player": "Wilde, Griffin",
-      "Team": "NW",
-      "Pos": "WR",
-      "Teams": 3,
-      "League Teams": 73,
-      "Roster Share": 4.1
-    },
-    {
-      "Player": "Jackson, Joe",
-      "Team": "K St",
-      "Pos": "RB",
-      "Teams": 4,
-      "League Teams": 73,
-      "Roster Share": 5.5
-    },
-    {
-      "Player": "Fleming, Dorian",
-      "Team": "MD",
-      "Pos": "TE",
-      "Teams": 1,
-      "League Teams": 73,
-      "Roster Share": 1.4
-    },
-    {
-      "Player": "Washington, Malik",
-      "Team": "MD",
-      "Pos": "QB",
-      "Teams": 1,
-      "League Teams": 73,
-      "Roster Share": 1.4
-    },
-    {
-      "Player": "Spivey, Tre",
-      "Team": "Ariz",
-      "Pos": "WR",
-      "Teams": 1,
-      "League Teams": 73,
-      "Roster Share": 1.4
-    },
-    {
-      "Player": "Mosley, Trent",
-      "Team": "USC",
-      "Pos": "WR",
-      "Teams": 3,
-      "League Teams": 73,
-      "Roster Share": 4.1
-    },
-    {
-      "Player": "Hawkins, Marcellous",
-      "Team": "VaTec",
-      "Pos": "RB",
-      "Teams": 1,
-      "League Teams": 73,
-      "Roster Share": 1.4
-    },
-    {
-      "Player": "Knight, Yamir",
-      "Team": "SMU",
-      "Pos": "WR",
-      "Teams": 1,
-      "League Teams": 73,
-      "Roster Share": 1.4
-    },
-    {
-      "Player": "Barnett, Alonza",
-      "Team": "UCF",
-      "Pos": "QB",
-      "Teams": 2,
-      "League Teams": 73,
-      "Roster Share": 2.7
-    },
-    {
-      "Player": "Omeire, Troy",
-      "Team": "NM",
-      "Pos": "WR",
-      "Teams": 1,
-      "League Teams": 73,
-      "Roster Share": 1.4
-    },
-    {
-      "Player": "Eager, Anthony",
-      "Team": "SoAl",
+      "Player": "Matthews, Mike",
+      "Team": "Tenn",
       "Pos": "WR",
       "Teams": 2,
       "League Teams": 73,
@@ -972,6 +716,62 @@
       "Roster Share": 2.7
     },
     {
+      "Player": "Moore, Dakorien",
+      "Team": "Oreg",
+      "Pos": "WR",
+      "Teams": 2,
+      "League Teams": 73,
+      "Roster Share": 2.7
+    },
+    {
+      "Player": "Parker, Wayshawn",
+      "Team": "Utah",
+      "Pos": "RB",
+      "Teams": 2,
+      "League Teams": 73,
+      "Roster Share": 2.7
+    },
+    {
+      "Player": "Richardson, Tre",
+      "Team": "Lou",
+      "Pos": "WR",
+      "Teams": 2,
+      "League Teams": 73,
+      "Roster Share": 2.7
+    },
+    {
+      "Player": "Uiliata, Liatama",
+      "Team": "Hawaii",
+      "Pos": "WR",
+      "Teams": 2,
+      "League Teams": 73,
+      "Roster Share": 2.7
+    },
+    {
+      "Player": "Wade, Dylan",
+      "Team": "UCF",
+      "Pos": "TE",
+      "Teams": 2,
+      "League Teams": 73,
+      "Roster Share": 2.7
+    },
+    {
+      "Player": "Alexander, Hilton",
+      "Team": "Miss",
+      "Pos": "WR",
+      "Teams": 1,
+      "League Teams": 73,
+      "Roster Share": 1.4
+    },
+    {
+      "Player": "Allen, Owen",
+      "Team": "AF",
+      "Pos": "RB",
+      "Teams": 1,
+      "League Teams": 73,
+      "Roster Share": 1.4
+    },
+    {
       "Player": "Boley, Cutter",
       "Team": "AzSt",
       "Pos": "QB",
@@ -980,136 +780,16 @@
       "Roster Share": 1.4
     },
     {
-      "Player": "McCown, Owen",
-      "Team": "UTSA",
-      "Pos": "QB",
-      "Teams": 1,
-      "League Teams": 73,
-      "Roster Share": 1.4
-    },
-    {
-      "Player": "Brown, Samuel",
-      "Team": "Tem",
-      "Pos": "RB",
-      "Teams": 2,
-      "League Teams": 73,
-      "Roster Share": 2.7
-    },
-    {
-      "Player": "Curtis, Jamar",
-      "Team": "SacSt",
+      "Player": "Brown, Isaac",
+      "Team": "Lou",
       "Pos": "RB",
       "Teams": 1,
       "League Teams": 73,
       "Roster Share": 1.4
     },
     {
-      "Player": "Martin, Patrick",
-      "Team": "SoAl",
-      "Pos": "RB",
-      "Teams": 1,
-      "League Teams": 73,
-      "Roster Share": 1.4
-    },
-    {
-      "Player": "Jackson, Brad",
-      "Team": "TxSt",
-      "Pos": "QB",
-      "Teams": 1,
-      "League Teams": 73,
-      "Roster Share": 1.4
-    },
-    {
-      "Player": "Sellers, LaNorris",
-      "Team": "SCar",
-      "Pos": "QB",
-      "Teams": 3,
-      "League Teams": 73,
-      "Roster Share": 4.1
-    },
-    {
-      "Player": "Russell, Keelon",
-      "Team": "Bama",
-      "Pos": "QB",
-      "Teams": 1,
-      "League Teams": 73,
-      "Roster Share": 1.4
-    },
-    {
-      "Player": "Lewis, Jaquari",
-      "Team": "App",
-      "Pos": "RB",
-      "Teams": 1,
-      "League Teams": 73,
-      "Roster Share": 1.4
-    },
-    {
-      "Player": "Himes, Jaylen",
-      "Team": "SMiss",
-      "Pos": "WR",
-      "Teams": 1,
-      "League Teams": 73,
-      "Roster Share": 1.4
-    },
-    {
-      "Player": "Overton, Jeffrey",
-      "Team": "VaTec",
-      "Pos": "RB",
-      "Teams": 1,
-      "League Teams": 73,
-      "Roster Share": 1.4
-    },
-    {
-      "Player": "Riles, DJ",
-      "Team": "GASt",
-      "Pos": "WR",
-      "Teams": 1,
-      "League Teams": 73,
-      "Roster Share": 1.4
-    },
-    {
-      "Player": "Dallas, Josh",
-      "Team": "GaSo",
-      "Pos": "WR",
-      "Teams": 1,
-      "League Teams": 73,
-      "Roster Share": 1.4
-    },
-    {
-      "Player": "Stokes, Marcus",
-      "Team": "Mem",
-      "Pos": "QB",
-      "Teams": 1,
-      "League Teams": 73,
-      "Roster Share": 1.4
-    },
-    {
-      "Player": "Scudero, Danny",
-      "Team": "Colo",
-      "Pos": "WR",
-      "Teams": 1,
-      "League Teams": 73,
-      "Roster Share": 1.4
-    },
-    {
-      "Player": "Sagapolutele, Jaron-Keawe",
-      "Team": "Cal",
-      "Pos": "QB",
-      "Teams": 1,
-      "League Teams": 73,
-      "Roster Share": 1.4
-    },
-    {
-      "Player": "Knight, Wayne",
-      "Team": "UCLA",
-      "Pos": "RB",
-      "Teams": 1,
-      "League Teams": 73,
-      "Roster Share": 1.4
-    },
-    {
-      "Player": "Silver, JoNathan",
-      "Team": "UD",
+      "Player": "Brown, Raleek",
+      "Team": "Tex",
       "Pos": "RB",
       "Teams": 1,
       "League Teams": 73,
@@ -1124,6 +804,70 @@
       "Roster Share": 1.4
     },
     {
+      "Player": "Cobb, Jeremiah",
+      "Team": "Aub",
+      "Pos": "RB",
+      "Teams": 1,
+      "League Teams": 73,
+      "Roster Share": 1.4
+    },
+    {
+      "Player": "Curtis, Jamar",
+      "Team": "SacSt",
+      "Pos": "RB",
+      "Teams": 1,
+      "League Teams": 73,
+      "Roster Share": 1.4
+    },
+    {
+      "Player": "Dallas, Josh",
+      "Team": "GaSo",
+      "Pos": "WR",
+      "Teams": 1,
+      "League Teams": 73,
+      "Roster Share": 1.4
+    },
+    {
+      "Player": "Davison, Jordon",
+      "Team": "Oreg",
+      "Pos": "RB",
+      "Teams": 1,
+      "League Teams": 73,
+      "Roster Share": 1.4
+    },
+    {
+      "Player": "Fleming, Dorian",
+      "Team": "MD",
+      "Pos": "TE",
+      "Teams": 1,
+      "League Teams": 73,
+      "Roster Share": 1.4
+    },
+    {
+      "Player": "Fletcher, Mark",
+      "Team": "MiaFL",
+      "Pos": "RB",
+      "Teams": 1,
+      "League Teams": 73,
+      "Roster Share": 1.4
+    },
+    {
+      "Player": "Ford, Micah",
+      "Team": "Stan",
+      "Pos": "RB",
+      "Teams": 1,
+      "League Teams": 73,
+      "Roster Share": 1.4
+    },
+    {
+      "Player": "Frazier, Nate",
+      "Team": "UGA",
+      "Pos": "RB",
+      "Teams": 1,
+      "League Teams": 73,
+      "Roster Share": 1.4
+    },
+    {
       "Player": "Garcia, Anthony",
       "Team": "UtSt",
       "Pos": "WR",
@@ -1132,9 +876,265 @@
       "Roster Share": 1.4
     },
     {
+      "Player": "Green, TreyDez",
+      "Team": "LSU",
+      "Pos": "TE",
+      "Teams": 1,
+      "League Teams": 73,
+      "Roster Share": 1.4
+    },
+    {
+      "Player": "Hawkins, Marcellous",
+      "Team": "VaTec",
+      "Pos": "RB",
+      "Teams": 1,
+      "League Teams": 73,
+      "Roster Share": 1.4
+    },
+    {
+      "Player": "Hillstead, McCae",
+      "Team": "UtSt",
+      "Pos": "QB",
+      "Teams": 1,
+      "League Teams": 73,
+      "Roster Share": 1.4
+    },
+    {
+      "Player": "Himes, Jaylen",
+      "Team": "SMiss",
+      "Pos": "WR",
+      "Teams": 1,
+      "League Teams": 73,
+      "Roster Share": 1.4
+    },
+    {
+      "Player": "Jackson, Brad",
+      "Team": "TxSt",
+      "Pos": "QB",
+      "Teams": 1,
+      "League Teams": 73,
+      "Roster Share": 1.4
+    },
+    {
+      "Player": "Jackson, Quinton",
+      "Team": "Rice",
+      "Pos": "RB",
+      "Teams": 1,
+      "League Teams": 73,
+      "Roster Share": 1.4
+    },
+    {
+      "Player": "Johnson, Jamari",
+      "Team": "Oreg",
+      "Pos": "TE",
+      "Teams": 1,
+      "League Teams": 73,
+      "Roster Share": 1.4
+    },
+    {
+      "Player": "Knight, Wayne",
+      "Team": "UCLA",
+      "Pos": "RB",
+      "Teams": 1,
+      "League Teams": 73,
+      "Roster Share": 1.4
+    },
+    {
+      "Player": "Knight, Yamir",
+      "Team": "SMU",
+      "Pos": "WR",
+      "Teams": 1,
+      "League Teams": 73,
+      "Roster Share": 1.4
+    },
+    {
+      "Player": "Kromah, Ousmane",
+      "Team": "FlaSt",
+      "Pos": "RB",
+      "Teams": 1,
+      "League Teams": 73,
+      "Roster Share": 1.4
+    },
+    {
+      "Player": "Lewis, Jaquari",
+      "Team": "App",
+      "Pos": "RB",
+      "Teams": 1,
+      "League Teams": 73,
+      "Roster Share": 1.4
+    },
+    {
+      "Player": "Marsh, Andrew",
+      "Team": "Mich",
+      "Pos": "WR",
+      "Teams": 1,
+      "League Teams": 73,
+      "Roster Share": 1.4
+    },
+    {
+      "Player": "Martin, Patrick",
+      "Team": "SoAl",
+      "Pos": "RB",
+      "Teams": 1,
+      "League Teams": 73,
+      "Roster Share": 1.4
+    },
+    {
+      "Player": "McCown, Owen",
+      "Team": "UTSA",
+      "Pos": "QB",
+      "Teams": 1,
+      "League Teams": 73,
+      "Roster Share": 1.4
+    },
+    {
+      "Player": "Omeire, Troy",
+      "Team": "NM",
+      "Pos": "WR",
+      "Teams": 1,
+      "League Teams": 73,
+      "Roster Share": 1.4
+    },
+    {
+      "Player": "Overton, Jeffrey",
+      "Team": "VaTec",
+      "Pos": "RB",
+      "Teams": 1,
+      "League Teams": 73,
+      "Roster Share": 1.4
+    },
+    {
+      "Player": "Raphael, Kendrick",
+      "Team": "SMU",
+      "Pos": "RB",
+      "Teams": 1,
+      "League Teams": 73,
+      "Roster Share": 1.4
+    },
+    {
+      "Player": "Richard, Turbo",
+      "Team": "Ind",
+      "Pos": "RB",
+      "Teams": 1,
+      "League Teams": 73,
+      "Roster Share": 1.4
+    },
+    {
+      "Player": "Riles, DJ",
+      "Team": "GASt",
+      "Pos": "WR",
+      "Teams": 1,
+      "League Teams": 73,
+      "Roster Share": 1.4
+    },
+    {
+      "Player": "Robinson, Duce",
+      "Team": "FlaSt",
+      "Pos": "WR",
+      "Teams": 1,
+      "League Teams": 73,
+      "Roster Share": 1.4
+    },
+    {
+      "Player": "Russell, Keelon",
+      "Team": "Bama",
+      "Pos": "QB",
+      "Teams": 1,
+      "League Teams": 73,
+      "Roster Share": 1.4
+    },
+    {
+      "Player": "Sagapolutele, Jaron-Keawe",
+      "Team": "Cal",
+      "Pos": "QB",
+      "Teams": 1,
+      "League Teams": 73,
+      "Roster Share": 1.4
+    },
+    {
+      "Player": "Scott, DJ",
+      "Team": "NDSU",
+      "Pos": "RB",
+      "Teams": 1,
+      "League Teams": 73,
+      "Roster Share": 1.4
+    },
+    {
+      "Player": "Scudero, Danny",
+      "Team": "Colo",
+      "Pos": "WR",
+      "Teams": 1,
+      "League Teams": 73,
+      "Roster Share": 1.4
+    },
+    {
+      "Player": "Silver, JoNathan",
+      "Team": "UD",
+      "Pos": "RB",
+      "Teams": 1,
+      "League Teams": 73,
+      "Roster Share": 1.4
+    },
+    {
+      "Player": "Simmons, Austin",
+      "Team": "Mizzou",
+      "Pos": "QB",
+      "Teams": 1,
+      "League Teams": 73,
+      "Roster Share": 1.4
+    },
+    {
       "Player": "Singleton, Samuel",
       "Team": "FlaSt",
       "Pos": "RB",
+      "Teams": 1,
+      "League Teams": 73,
+      "Roster Share": 1.4
+    },
+    {
+      "Player": "Spivey, Tre",
+      "Team": "Ariz",
+      "Pos": "WR",
+      "Teams": 1,
+      "League Teams": 73,
+      "Roster Share": 1.4
+    },
+    {
+      "Player": "Stokes, Marcus",
+      "Team": "Mem",
+      "Pos": "QB",
+      "Teams": 1,
+      "League Teams": 73,
+      "Roster Share": 1.4
+    },
+    {
+      "Player": "Washington, Malik",
+      "Team": "MD",
+      "Pos": "QB",
+      "Teams": 1,
+      "League Teams": 73,
+      "Roster Share": 1.4
+    },
+    {
+      "Player": "Weaver, Luke",
+      "Team": "SJSU",
+      "Pos": "QB",
+      "Teams": 1,
+      "League Teams": 73,
+      "Roster Share": 1.4
+    },
+    {
+      "Player": "Wesco, Bryant",
+      "Team": "Clem",
+      "Pos": "WR",
+      "Teams": 1,
+      "League Teams": 73,
+      "Roster Share": 1.4
+    },
+    {
+      "Player": "Williams, Rashid",
+      "Team": "Wash",
+      "Pos": "WR",
       "Teams": 1,
       "League Teams": 73,
       "Roster Share": 1.4
