@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CFB Fantasy Roster Share</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 30px;
+            background: #f5f5f5;
+            color: #222;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            margin-bottom: 5px;
+        }
+
+        .subtitle {
+            color: #666;
+            margin-bottom: 25px;
+        }
+
+        .controls {
+            margin-bottom: 15px;
+        }
+
+        #search {
+            width: 100%;
+            max-width: 400px;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        th {
+            background: #222;
+            color: white;
+            padding: 12px 10px;
+            text-align: left;
+            cursor: pointer;
+        }
+
+        td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        tr:hover {
+            background: #f0f0f0;
+        }
+
+        .share {
+            font-weight: bold;
+        }
+
+        .updated {
+            color: #777;
+            font-size: 14px;
+            margin-top: 15px;
+        }
+
+        .error {
+            color: #b00020;
+            padding: 20px;
+            background: #fff0f0;
+            border: 1px solid #e0aaaa;
+        }
+
+        @media (max-width: 700px) {
+            body {
+                padding: 15px;
+            }
+
+            th, td {
+                padding: 8px 6px;
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>CFB Fantasy Roster Share</h1>
+
+    <div class="subtitle" id="subtitle">
+        Loading...
+    </div>
+
+    <div class="controls">
+        <input
+            type="text"
+            id="search"
+            placeholder="Search player, team or position..."
+        >
+    </div>
+
+    <div id="table-container">
+        Loading roster share...
+    </div>
+
+    <div class="updated" id="updated"></div>
+
+</div>
+
+<script>
+
+let players = [];
+let sortColumn = "Roster Share";
+let sortDirection = "desc";
+
+async function loadData() {
+
+    try {
+
+        const response = await fetch("roster_share.json");
+
+        if (!response.ok) {
+            throw new Error("Could not load roster_share.json");
+        }
+
+        const data = await response.json();
+
+        players = data.players;
+
+        document.getElementById("subtitle").textContent =
+            `Period ${data.period} • ${data.league_teams} fantasy teams`;
+
+        const updated = new Date(data.last_updated);
+
+        document.getElementById("updated").textContent =
+            `Last updated: ${updated.toLocaleString()}`;
+
+        renderTable();
+
+    } catch (error) {
+
+        document.getElementById("table-container").innerHTML =
+            `<div class="error">
+                Unable to load roster-share data.
+            </div>`;
+
+        console.error(error);
+    }
+}
+
+
+function renderTable() {
+
+    const searchTerm =
+        document.getElementById("search").value.toLowerCase();
+
+    let filteredPlayers = players.filter(player => {
+
+        return (
+            player.Player.toLowerCase().includes(searchTerm) ||
+            player.Team.toLowerCase().includes(searchTerm) ||
+            player.Pos.toLowerCase().includes(searchTerm)
+        );
+
+    });
+
+
+    filteredPlayers.sort((a, b) => {
+
+        let valueA = a[sortColumn];
+        let valueB = b[sortColumn];
+
+        if (typeof valueA === "string") {
+            valueA = valueA.toLowerCase();
+            valueB = valueB.toLowerCase();
+        }
+
+        if (valueA < valueB) {
+            return sortDirection === "asc" ? -1 : 1;
+        }
+
+        if (valueA > valueB) {
+            return sortDirection === "asc" ? 1 : -1;
+        }
+
+        return 0;
+    });
+
+
+    let html = `
+        <table>
+
+            <thead>
+                <tr>
+                    <th onclick="sortBy('Rank')">Rank</th>
+                    <th onclick="sortBy('Player')">Player</th>
+                    <th onclick="sortBy('Team')">Team</th>
+                    <th onclick="sortBy('Pos')">Pos</th>
+                    <th onclick="sortBy('Teams')">Teams</th>
+                    <th onclick="sortBy('Roster Share')">Roster Share</th>
+                </tr>
+            </thead>
+
+            <tbody>
+    `;
+
+
+    filteredPlayers.forEach((player, index) => {
+
+        html += `
+            <tr>
+                <td>${index + 1}</td>
+                <td>${player.Player}</td>
+                <td>${player.Team}</td>
+                <td>${player.Pos}</td>
+                <td>${player.Teams}</td>
+                <td class="share">${player["Roster Share"].toFixed(1)}%</td>
+            </tr>
+        `;
+
+    });
+
+
+    html += `
+            </tbody>
+        </table>
+    `;
+
+    document.getElementById("table-container").innerHTML = html;
+}
+
+
+function sortBy(column) {
+
+    if (sortColumn === column) {
+        sortDirection =
+            sortDirection === "asc" ? "desc" : "asc";
+    } else {
+        sortColumn = column;
+        sortDirection = "desc";
+    }
+
+    renderTable();
+}
+
+
+document
+    .getElementById("search")
+    .addEventListener("input", renderTable);
+
+
+loadData();
+
+</script>
+
+</body>
+</html>
