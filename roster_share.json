@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-04T20:40:29.480630+00:00",
+  "last_updated": "2026-09-04T20:45:28.210508+00:00",
   "period": 1,
   "league_teams": 73,
   "players": [
@@ -34,9 +34,9 @@
       "Player": "Smith, Jeremiah",
       "Team": "OSU",
       "Pos": "WR",
-      "Teams": 53,
+      "Teams": 52,
       "League Teams": 73,
-      "Roster Share": 72.6,
+      "Roster Share": 71.2,
       "Fantasy Points": 0.0
     },
     {
