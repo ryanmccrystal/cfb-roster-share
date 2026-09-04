@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-04T20:45:28.210508+00:00",
+  "last_updated": "2026-09-04T20:48:48.890369+00:00",
   "period": 1,
   "league_teams": 73,
   "players": [
@@ -85,6 +85,15 @@
       "Fantasy Points": 0.0
     },
     {
+      "Player": "Taylor, Kamario",
+      "Team": "MissSt",
+      "Pos": "QB",
+      "Teams": 33,
+      "League Teams": 73,
+      "Roster Share": 45.2,
+      "Fantasy Points": 0.0
+    },
+    {
       "Player": "Bishop, DeSean",
       "Team": "Tenn",
       "Pos": "RB",
@@ -96,15 +105,6 @@
     {
       "Player": "Mateer, John",
       "Team": "Okla",
-      "Pos": "QB",
-      "Teams": 32,
-      "League Teams": 73,
-      "Roster Share": 43.8,
-      "Fantasy Points": 0.0
-    },
-    {
-      "Player": "Taylor, Kamario",
-      "Team": "MissSt",
       "Pos": "QB",
       "Teams": 32,
       "League Teams": 73,
@@ -202,6 +202,15 @@
       "Fantasy Points": 0.0
     },
     {
+      "Player": "Sheppard, Nate",
+      "Team": "Duke",
+      "Pos": "RB",
+      "Teams": 20,
+      "League Teams": 73,
+      "Roster Share": 27.4,
+      "Fantasy Points": 0.0
+    },
+    {
       "Player": "King, Tyler",
       "Team": "NMS",
       "Pos": "WR",
@@ -209,15 +218,6 @@
       "League Teams": 73,
       "Roster Share": 26.0,
       "Fantasy Points": 20.8
-    },
-    {
-      "Player": "Sheppard, Nate",
-      "Team": "Duke",
-      "Pos": "RB",
-      "Teams": 19,
-      "League Teams": 73,
-      "Roster Share": 26.0,
-      "Fantasy Points": 0.0
     },
     {
       "Player": "Coleman-Williams, Ryan",
@@ -373,15 +373,6 @@
       "Fantasy Points": 33.95
     },
     {
-      "Player": "Chambliss, Trinidad",
-      "Team": "Miss",
-      "Pos": "QB",
-      "Teams": 9,
-      "League Teams": 73,
-      "Roster Share": 12.3,
-      "Fantasy Points": 0.0
-    },
-    {
       "Player": "Johnson, Avery",
       "Team": "K St",
       "Pos": "QB",
@@ -403,6 +394,15 @@
       "Player": "Barnes, Jaden",
       "Team": "UNCC",
       "Pos": "WR",
+      "Teams": 8,
+      "League Teams": 73,
+      "Roster Share": 11.0,
+      "Fantasy Points": 0.0
+    },
+    {
+      "Player": "Chambliss, Trinidad",
+      "Team": "Miss",
+      "Pos": "QB",
       "Teams": 8,
       "League Teams": 73,
       "Roster Share": 11.0,
