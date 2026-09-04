@@ -236,7 +236,7 @@ function renderTable() {
                 <td>${player.Pos}</td>
                 <td>${player.Teams}</td>
                 <td class="share">${player["Roster Share"].toFixed(1)}%</td>
-                <td class="points">${player["Fantasy Points"].toFixed(1)}</td>
+                <td class="points">${Number(player["Fantasy Points"]).toFixed(1)}</td>
             </tr>
         `;
 
