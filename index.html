@@ -71,6 +71,10 @@
             font-weight: bold;
         }
 
+        .points {
+            font-weight: bold;
+        }
+
         .updated {
             color: #777;
             font-size: 14px;
@@ -214,6 +218,7 @@ function renderTable() {
                     <th onclick="sortBy('Pos')">Pos</th>
                     <th onclick="sortBy('Teams')">Teams</th>
                     <th onclick="sortBy('Roster Share')">Roster Share</th>
+                    <th onclick="sortBy('Fantasy Points')">Fantasy Points</th>
                 </tr>
             </thead>
 
@@ -231,6 +236,7 @@ function renderTable() {
                 <td>${player.Pos}</td>
                 <td>${player.Teams}</td>
                 <td class="share">${player["Roster Share"].toFixed(1)}%</td>
+                <td class="points">${player["Fantasy Points"].toFixed(1)}</td>
             </tr>
         `;
 
