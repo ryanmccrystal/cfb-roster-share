@@ -55,6 +55,65 @@ print("Player/team entries:", len(player_data))
 
 
 # --------------------------------------------------
+# Get Fantrax fantasy points
+# --------------------------------------------------
+
+points_url = "https://www.fantrax.com/fxpa/req"
+
+player_points = {}
+
+for page in [1, 2]:
+
+    payload = {
+        "msgs": [
+            {
+                "method": "getPlayerStats",
+                "data": {
+                    "leagueId": LEAGUE_ID,
+                    "statusOrTeamFilter": "ALL",
+                    "maxResultsPerPage": 5000,
+                    "pageNumber": str(page)
+                }
+            }
+        ]
+    }
+
+    points_response = requests.post(
+        points_url,
+        params={
+            "leagueId": LEAGUE_ID
+        },
+        json=payload,
+        timeout=60
+    )
+
+    points_response.raise_for_status()
+
+    points_data = points_response.json()["responses"][0]["data"]
+
+    print(
+        f"Points page {page}:",
+        len(points_data["statsTable"]),
+        "players"
+    )
+
+    for row in points_data["statsTable"]:
+
+        player = row["scorer"]
+
+        player_id = player["scorerId"]
+
+        fantasy_points = float(
+            row["cells"][2]["content"]
+        )
+
+        player_points[player_id] = fantasy_points
+
+
+print("Players with fantasy points:", len(player_points))
+
+
+# --------------------------------------------------
 # Count how many fantasy teams roster each player
 # --------------------------------------------------
 
@@ -99,7 +158,8 @@ for player_id, teams in player_teams.items():
         "Pos": info.get("position", ""),
         "Teams": teams_rostered,
         "League Teams": total_teams,
-        "Roster Share": round(roster_share, 1)
+        "Roster Share": round(roster_share, 1),
+        "Fantasy Points": player_points.get(player_id)
     })
 
 
