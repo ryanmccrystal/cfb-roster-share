@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-06T13:39:37.420580+00:00",
+  "last_updated": "2026-09-07T15:48:48.509248+00:00",
   "period": 1,
   "league_teams": 73,
   "players": [
@@ -64,7 +64,7 @@
       "Teams": 46,
       "League Teams": 73,
       "Roster Share": 63.0,
-      "Fantasy Points": 0.0
+      "Fantasy Points": 18.0
     },
     {
       "Player": "Thomas, Amare",
@@ -280,7 +280,7 @@
       "Teams": 16,
       "League Teams": 73,
       "Roster Share": 21.9,
-      "Fantasy Points": 0.0
+      "Fantasy Points": 29.5
     },
     {
       "Player": "Amador, David",
@@ -316,7 +316,7 @@
       "Teams": 12,
       "League Teams": 73,
       "Roster Share": 16.4,
-      "Fantasy Points": 0.0
+      "Fantasy Points": 23.1
     },
     {
       "Player": "Arnold, Jackson",
@@ -460,7 +460,7 @@
       "Teams": 7,
       "League Teams": 73,
       "Roster Share": 9.6,
-      "Fantasy Points": 0.0
+      "Fantasy Points": 44.8
     },
     {
       "Player": "Devereaux, Nick",
@@ -487,7 +487,7 @@
       "Teams": 7,
       "League Teams": 73,
       "Roster Share": 9.6,
-      "Fantasy Points": 0.0
+      "Fantasy Points": 11.1
     },
     {
       "Player": "Brown, Cameran",
@@ -757,7 +757,7 @@
       "Teams": 2,
       "League Teams": 73,
       "Roster Share": 2.7,
-      "Fantasy Points": 0.0
+      "Fantasy Points": 9.8
     },
     {
       "Player": "Cobb, Jeremiah",
@@ -883,7 +883,7 @@
       "Teams": 2,
       "League Teams": 73,
       "Roster Share": 2.7,
-      "Fantasy Points": 0.0
+      "Fantasy Points": 29.3
     },
     {
       "Player": "Russell, Keelon",
@@ -928,7 +928,7 @@
       "Teams": 1,
       "League Teams": 73,
       "Roster Share": 1.4,
-      "Fantasy Points": 0.0
+      "Fantasy Points": 36.9
     },
     {
       "Player": "Allen, Owen",
@@ -1360,7 +1360,7 @@
       "Teams": 1,
       "League Teams": 73,
       "Roster Share": 1.4,
-      "Fantasy Points": 0.0
+      "Fantasy Points": 16.4
     },
     {
       "Player": "Young, Wyatt",
