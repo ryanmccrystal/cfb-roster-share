@@ -1,18 +1,22 @@
 import requests
 import json
 import time
+import os
 from datetime import datetime, timezone
 
 LEAGUE_ID = "gpn5biw5mrzg1jwn"
 
-# Number of weeks we eventually want
-MAX_PERIOD = 14
+OUTPUT_FILE = "roster_share.json"
+
+MAX_WEEKS = 14
+
+roster_url = "https://www.fantrax.com/fxea/general/getTeamRosters"
+player_url = "https://www.fantrax.com/fxea/general/getPlayerIds"
+
 
 # --------------------------------------------------
 # Get Fantrax player information
 # --------------------------------------------------
-
-player_url = "https://www.fantrax.com/fxea/general/getPlayerIds"
 
 player_response = requests.get(
     player_url,
@@ -28,21 +32,76 @@ print("Player/team entries:", len(player_data))
 
 
 # --------------------------------------------------
-# Function to retrieve one week's data
+# Load existing JSON
+# --------------------------------------------------
+
+if os.path.exists(OUTPUT_FILE):
+
+    with open(OUTPUT_FILE, "r") as f:
+        output = json.load(f)
+
+    print()
+    print("Existing roster_share.json found.")
+
+else:
+
+    output = {
+        "last_updated": None,
+        "league_teams": 0,
+        "weeks": {}
+    }
+
+    print()
+    print("No existing roster_share.json found.")
+
+
+# --------------------------------------------------
+# Convert old single-week format if necessary
+# --------------------------------------------------
+
+if "weeks" not in output:
+
+    print()
+    print("Converting existing single-week format...")
+
+    old_period = str(output.get("period", 1))
+
+    old_week = {
+        "league_teams": output.get("league_teams", 0),
+        "players": output.get("players", []),
+        "last_updated": output.get(
+            "last_updated",
+            datetime.now(timezone.utc).isoformat()
+        )
+    }
+
+    output["weeks"] = {
+        old_period: old_week
+    }
+
+    output.pop("period", None)
+    output.pop("players", None)
+
+    print(
+        f"Converted existing data to Week {old_period}."
+    )
+
+
+# --------------------------------------------------
+# Function to retrieve one period
 # --------------------------------------------------
 
 def get_week_data(period):
 
     print()
     print("=" * 60)
-    print(f"PROCESSING WEEK {period}")
+    print(f"CHECKING WEEK {period}")
     print("=" * 60)
+
 
     # ----------------------------------------------
     # Get rosters for this period
     # ----------------------------------------------
-
-    roster_url = "https://www.fantrax.com/fxea/general/getTeamRosters"
 
     roster_response = requests.get(
         roster_url,
@@ -60,8 +119,9 @@ def get_week_data(period):
 
     print("Fantasy teams:", len(rosters))
 
+
     # ----------------------------------------------
-    # Count roster share
+    # Count roster shares
     # ----------------------------------------------
 
     player_teams = {}
@@ -80,20 +140,20 @@ def get_week_data(period):
 
             player_teams[player_id].add(fantasy_team_id)
 
-    print(
-        "Unique players on rosters:",
-        len(player_teams)
-    )
+
+    print("Unique rostered players:", len(player_teams))
+
 
     # ----------------------------------------------
-    # Get fantasy points
+    # Get period-specific fantasy points
     # ----------------------------------------------
 
     player_points = {}
 
     successful = 0
-    hidden_rosters = 0
     failed = 0
+    hidden = 0
+
 
     for count, team_id in enumerate(
         rosters.keys(),
@@ -115,141 +175,147 @@ def get_week_data(period):
             ]
         }
 
+
         try:
 
-            response = requests.post(
+            points_response = requests.post(
                 "https://www.fantrax.com/fxpa/req",
                 params={"leagueId": LEAGUE_ID},
                 json=payload,
                 timeout=60
             )
 
-            response.raise_for_status()
+            points_response.raise_for_status()
 
-            response_data = response.json()
+            points_data = points_response.json()
 
-            team_data = response_data[
-                "responses"
-            ][0]["data"]
+            team_data = points_data["responses"][0]["data"]
 
             successful += 1
 
+
             # --------------------------------------
-            # Check whether Fantrax is hiding roster
+            # Check for hidden future-period roster
             # --------------------------------------
 
-            misc_data = team_data.get(
-                "miscData",
-                {}
+            message = (
+                team_data
+                .get("miscData", {})
+                .get("aboveTableMessage", "")
             )
 
-            above_table_message = misc_data.get(
-                "aboveTableMessage",
-                ""
-            )
 
-            if "rosters of teams you do not own" in \
-               above_table_message:
+            if "hidden" in message.lower():
 
-                hidden_rosters += 1
+                hidden += 1
+
+                continue
+
 
             # --------------------------------------
-            # Extract players
+            # Extract player fantasy points
             # --------------------------------------
 
-            for table in team_data.get(
-                "tables",
-                []
-            ):
+            for table in team_data.get("tables", []):
 
-                for row in table.get(
-                    "rows",
-                    []
-                ):
+                for row in table.get("rows", []):
 
-                    scorer = row.get(
-                        "scorer",
-                        {}
-                    )
+                    scorer = row.get("scorer", {})
 
-                    player_id = scorer.get(
-                        "scorerId"
-                    )
+                    player_id = scorer.get("scorerId")
+                    name = scorer.get("name")
 
-                    name = scorer.get(
-                        "name"
-                    )
 
                     if not player_id or not name:
                         continue
 
-                    cells = row.get(
-                        "cells",
-                        []
-                    )
 
-                    # Cell 1 = Fantasy Points
+                    cells = row.get("cells", [])
+
+
                     if len(cells) <= 1:
                         continue
 
-                    points_text = cells[1].get(
-                        "content"
-                    )
+
+                    points_text = cells[1].get("content")
+
 
                     try:
+                        points = float(points_text)
 
-                        points = float(
-                            points_text
-                        )
-
-                    except (
-                        TypeError,
-                        ValueError
-                    ):
+                    except (TypeError, ValueError):
 
                         continue
+
 
                     if player_id not in player_points:
 
                         player_points[player_id] = points
 
-            print(
-                f"{count:2}/{len(rosters)} "
-                f"| players with points: "
-                f"{len(player_points)}"
-            )
 
         except Exception as e:
 
             failed += 1
 
             print(
-                f"{count:2}/{len(rosters)} "
-                f"| ERROR: {e}"
+                f"ERROR on team {team_id}: {e}"
             )
+
 
         time.sleep(0.15)
 
-    # ----------------------------------------------
-    # Check whether this period is available
-    # ----------------------------------------------
 
     print()
-    print("Successful team requests:", successful)
-    print("Failed requests:", failed)
-    print("Hidden future rosters:", hidden_rosters)
+    print("Teams successfully queried:", successful)
+    print("Teams failed:", failed)
+    print("Hidden future rosters:", hidden)
     print("Players with fantasy points:", len(player_points))
 
-    # If every roster is hidden, this is a future
-    # period and we should NOT save it as usable data.
-    if hidden_rosters == len(rosters):
+
+    # ----------------------------------------------
+    # If Fantrax is hiding the entire period,
+    # don't save it.
+    # ----------------------------------------------
+
+    if hidden == len(rosters):
 
         print()
+        print(f"Week {period}: NOT AVAILABLE")
+
+        return None
+
+
+    # ----------------------------------------------
+    # Safety check
+    # ----------------------------------------------
+
+    missing_points = []
+
+    for player_id in player_teams:
+
+        if player_id not in player_points:
+
+            missing_points.append(player_id)
+
+
+    print()
+    print(
+        "Roster players missing points:",
+        len(missing_points)
+    )
+
+
+    if missing_points:
+
+        print()
+        print("WARNING:")
         print(
-            f"Week {period} is not available yet."
+            "Not saving this week because some "
+            "rostered players are missing fantasy points."
         )
 
         return None
+
 
     # ----------------------------------------------
     # Build player results
@@ -259,50 +325,33 @@ def get_week_data(period):
 
     players = []
 
+
     for player_id, teams in player_teams.items():
 
-        info = player_data.get(
-            player_id,
-            {}
-        )
+        info = player_data.get(player_id, {})
+
 
         if not info.get("name"):
             continue
 
+
         teams_rostered = len(teams)
 
         roster_share = (
-            teams_rostered /
-            total_teams
+            teams_rostered / total_teams
         ) * 100
 
+
         players.append({
-            "Player": info.get(
-                "name",
-                ""
-            ),
-            "Team": info.get(
-                "team",
-                ""
-            ),
-            "Pos": info.get(
-                "position",
-                ""
-            ),
+            "Player": info.get("name", ""),
+            "Team": info.get("team", ""),
+            "Pos": info.get("position", ""),
             "Teams": teams_rostered,
             "League Teams": total_teams,
-            "Roster Share": round(
-                roster_share,
-                1
-            ),
-            "Fantasy Points": player_points.get(
-                player_id
-            )
+            "Roster Share": round(roster_share, 1),
+            "Fantasy Points": player_points.get(player_id)
         })
 
-    # ----------------------------------------------
-    # Sort by roster share
-    # ----------------------------------------------
 
     players.sort(
         key=lambda x: (
@@ -311,58 +360,109 @@ def get_week_data(period):
         )
     )
 
+
     return {
         "league_teams": total_teams,
-        "players": players
+        "players": players,
+        "last_updated": datetime.now(
+            timezone.utc
+        ).isoformat()
     }
 
 
 # --------------------------------------------------
-# Retrieve available weeks
+# Make sure weeks exists
 # --------------------------------------------------
 
-weeks = {}
+if "weeks" not in output:
 
-for period in range(
-    1,
-    MAX_PERIOD + 1
-):
+    output["weeks"] = {}
 
-    week_data = get_week_data(
-        period
-    )
+
+# --------------------------------------------------
+# Determine the next week to collect
+# --------------------------------------------------
+
+saved_weeks = set(output["weeks"].keys())
+
+print()
+print(
+    "Already saved weeks:",
+    sorted(saved_weeks, key=int)
+)
+
+
+next_week = 1
+
+while str(next_week) in output["weeks"]:
+
+    next_week += 1
+
+
+print(
+    "Next week to check:",
+    next_week
+)
+
+
+# --------------------------------------------------
+# Check the next unsaved week
+# --------------------------------------------------
+
+if next_week <= MAX_WEEKS:
+
+    week_data = get_week_data(next_week)
+
 
     if week_data is not None:
 
-        weeks[str(period)] = week_data
+        output["weeks"][str(next_week)] = week_data
+
+        print()
+        print(
+            f"SUCCESS: Week {next_week} "
+            "was added to the dataset."
+        )
 
     else:
 
+        print()
         print(
-            f"Skipping Week {period}."
+            f"Week {next_week} is not available yet."
         )
 
+else:
+
     print()
+    print("All 14 weeks have been collected.")
 
 
 # --------------------------------------------------
-# Create final JSON
+# Update overall metadata
 # --------------------------------------------------
 
-output = {
-    "last_updated": datetime.now(
-        timezone.utc
-    ).isoformat(),
+output["last_updated"] = datetime.now(
+    timezone.utc
+).isoformat()
 
-    "league_teams": 73,
 
-    "weeks": weeks
-}
+if output["weeks"]:
 
-with open(
-    "roster_share.json",
-    "w"
-) as f:
+    first_week_key = sorted(
+        output["weeks"].keys(),
+        key=int
+    )[0]
+
+    output["league_teams"] = (
+        output["weeks"][first_week_key]["league_teams"]
+    )
+
+
+# --------------------------------------------------
+# Write JSON
+# --------------------------------------------------
+
+with open(OUTPUT_FILE, "w") as f:
 
     json.dump(
         output,
@@ -372,29 +472,43 @@ with open(
 
 
 # --------------------------------------------------
-# Final summary
+# Final verification
 # --------------------------------------------------
 
 print()
 print("=" * 60)
-print("FINAL SUMMARY")
+print("FINAL DATASET")
 print("=" * 60)
 
+
 print(
-    "Weeks available:",
-    ", ".join(
-        weeks.keys()
+    "Weeks saved:",
+    sorted(
+        output["weeks"].keys(),
+        key=int
     )
 )
 
-for week, data in weeks.items():
+
+print(
+    "League teams:",
+    output["league_teams"]
+)
+
+
+for week in sorted(
+    output["weeks"].keys(),
+    key=int
+):
+
+    data = output["weeks"][week]
 
     print(
         f"Week {week}: "
-        f"{len(data['players'])} players"
+        f"{len(data['players'])} players | "
+        f"{data['league_teams']} teams"
     )
 
+
 print()
-print(
-    "Created roster_share.json"
-)
+print("Created:", OUTPUT_FILE)
