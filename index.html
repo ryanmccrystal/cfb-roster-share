@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -26,7 +27,35 @@
 
         .subtitle {
             color: #666;
-            margin-bottom: 25px;
+            margin-bottom: 20px;
+        }
+
+        /* Week tabs */
+
+        .week-tabs {
+            display: flex;
+            gap: 5px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .week-tab {
+            padding: 8px 14px;
+            border: 1px solid #ccc;
+            background: white;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        .week-tab:hover {
+            background: #eee;
+        }
+
+        .week-tab.active {
+            background: #222;
+            color: white;
+            border-color: #222;
         }
 
         .controls {
@@ -88,7 +117,16 @@
             border: 1px solid #e0aaaa;
         }
 
+        .not-available {
+            padding: 30px;
+            background: white;
+            text-align: center;
+            color: #666;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
         @media (max-width: 700px) {
+
             body {
                 padding: 15px;
             }
@@ -96,6 +134,11 @@
             th, td {
                 padding: 8px 6px;
                 font-size: 14px;
+            }
+
+            .week-tab {
+                padding: 7px 10px;
+                font-size: 13px;
             }
         }
     </style>
@@ -110,6 +153,8 @@
     <div class="subtitle" id="subtitle">
         Loading...
     </div>
+
+    <div class="week-tabs" id="week-tabs"></div>
 
     <div class="controls">
         <input
@@ -129,9 +174,14 @@
 
 <script>
 
+let allWeeks = {};
 let players = [];
+
+let currentWeek = 1;
+
 let sortColumn = "Roster Share";
 let sortDirection = "desc";
+
 
 async function loadData() {
 
@@ -145,17 +195,33 @@ async function loadData() {
 
         const data = await response.json();
 
-        players = data.players;
+        /*
+         * Support the new multi-week format.
+         *
+         * For now, if the JSON is still using the old
+         * single-week format, put that data into Week 1.
+         */
 
-        document.getElementById("subtitle").textContent =
-            `Period ${data.period} • ${data.league_teams} fantasy teams`;
+        if (data.weeks) {
 
-        const updated = new Date(data.last_updated);
+            allWeeks = data.weeks;
 
-        document.getElementById("updated").textContent =
-            `Last updated: ${updated.toLocaleString()}`;
+        } else {
 
-        renderTable();
+            allWeeks = {
+                "1": {
+                    league_teams: data.league_teams,
+                    players: data.players,
+                    last_updated: data.last_updated
+                }
+            };
+
+        }
+
+
+        createWeekTabs();
+
+        selectWeek(1);
 
     } catch (error) {
 
@@ -169,10 +235,132 @@ async function loadData() {
 }
 
 
+/*
+ * Create Week 1 through Week 14 tabs.
+ */
+
+function createWeekTabs() {
+
+    const tabs = document.getElementById("week-tabs");
+
+    tabs.innerHTML = "";
+
+    for (let week = 1; week <= 14; week++) {
+
+        const button = document.createElement("button");
+
+        button.className = "week-tab";
+
+        button.textContent = `Week ${week}`;
+
+        button.onclick = function() {
+            selectWeek(week);
+        };
+
+        tabs.appendChild(button);
+    }
+}
+
+
+/*
+ * Select a week.
+ */
+
+function selectWeek(week) {
+
+    currentWeek = week;
+
+    /*
+     * Update active tab.
+     */
+
+    const tabs = document.querySelectorAll(".week-tab");
+
+    tabs.forEach((tab, index) => {
+
+        if (index + 1 === week) {
+            tab.classList.add("active");
+        } else {
+            tab.classList.remove("active");
+        }
+
+    });
+
+
+    /*
+     * See whether this week's data exists.
+     */
+
+    const weekData = allWeeks[String(week)];
+
+
+    if (!weekData || !weekData.players) {
+
+        players = [];
+
+        document.getElementById("subtitle").textContent =
+            `Week ${week} • Data not available yet`;
+
+        document.getElementById("updated").textContent = "";
+
+        document.getElementById("table-container").innerHTML =
+            `<div class="not-available">
+                Week ${week} data is not available yet.
+            </div>`;
+
+        return;
+    }
+
+
+    /*
+     * Load this week's players.
+     */
+
+    players = weekData.players;
+
+
+    document.getElementById("subtitle").textContent =
+        `Week ${week} • ${weekData.league_teams} fantasy teams`;
+
+
+    /*
+     * Show last updated time.
+     */
+
+    if (weekData.last_updated) {
+
+        const updated = new Date(weekData.last_updated);
+
+        document.getElementById("updated").textContent =
+            `Last updated: ${updated.toLocaleString()}`;
+
+    } else {
+
+        document.getElementById("updated").textContent = "";
+
+    }
+
+
+    /*
+     * Reset sorting whenever we change weeks.
+     */
+
+    sortColumn = "Roster Share";
+    sortDirection = "desc";
+
+    renderTable();
+}
+
+
+/*
+ * Render the table.
+ */
+
 function renderTable() {
 
     const searchTerm =
         document.getElementById("search").value.toLowerCase();
+
 
     let filteredPlayers = players.filter(player => {
 
@@ -190,10 +378,25 @@ function renderTable() {
         let valueA = a[sortColumn];
         let valueB = b[sortColumn];
 
+
+        /*
+         * Handle missing Fantasy Points.
+         */
+
+        if (valueA === null || valueA === undefined) {
+            valueA = -Infinity;
+        }
+
+        if (valueB === null || valueB === undefined) {
+            valueB = -Infinity;
+        }
+
+
         if (typeof valueA === "string") {
             valueA = valueA.toLowerCase();
             valueB = valueB.toLowerCase();
         }
+
 
         if (valueA < valueB) {
             return sortDirection === "asc" ? -1 : 1;
@@ -228,6 +431,13 @@ function renderTable() {
 
     filteredPlayers.forEach((player, index) => {
 
+        const fantasyPoints =
+            player["Fantasy Points"] === null ||
+            player["Fantasy Points"] === undefined
+                ? "—"
+                : Number(player["Fantasy Points"]).toFixed(1);
+
+
         html += `
             <tr>
                 <td>${index + 1}</td>
@@ -236,7 +446,7 @@ function renderTable() {
                 <td>${player.Pos}</td>
                 <td>${player.Teams}</td>
                 <td class="share">${player["Roster Share"].toFixed(1)}%</td>
-                <td class="points">${Number(player["Fantasy Points"]).toFixed(1)}</td>
+                <td class="points">${fantasyPoints}</td>
             </tr>
         `;
 
@@ -248,28 +458,45 @@ function renderTable() {
         </table>
     `;
 
+
     document.getElementById("table-container").innerHTML = html;
 }
 
 
+/*
+ * Sort table.
+ */
+
 function sortBy(column) {
 
     if (sortColumn === column) {
+
         sortDirection =
             sortDirection === "asc" ? "desc" : "asc";
+
     } else {
+
         sortColumn = column;
         sortDirection = "desc";
+
     }
 
     renderTable();
 }
 
 
+/*
+ * Search.
+ */
+
 document
     .getElementById("search")
     .addEventListener("input", renderTable);
 
+
+/*
+ * Load the data when the page opens.
+ */
 
 loadData();
 
@@ -277,3 +504,4 @@ loadData();
 
 </body>
 </html>
+```
