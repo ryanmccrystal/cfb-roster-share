@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-10T15:51:39.300413+00:00",
+  "last_updated": "2026-10-11T16:18:36.619961+00:00",
   "league_teams": 73,
   "weeks": {
     "1": {
@@ -6411,6 +6411,1155 @@
         }
       ],
       "last_updated": "2026-10-04T15:19:56.679226+00:00"
+    },
+    "6": {
+      "league_teams": 73,
+      "players": [
+        {
+          "Player": "Sheppard, Nate",
+          "Team": "Duke",
+          "Pos": "RB",
+          "Teams": 69,
+          "League Teams": 73,
+          "Roster Share": 94.5,
+          "Fantasy Points": 92.0
+        },
+        {
+          "Player": "White, Jahiem",
+          "Team": "NorTx",
+          "Pos": "RB",
+          "Teams": 68,
+          "League Teams": 73,
+          "Roster Share": 93.2,
+          "Fantasy Points": 126.4
+        },
+        {
+          "Player": "Smith, Jeremiah",
+          "Team": "OSU",
+          "Pos": "WR",
+          "Teams": 67,
+          "League Teams": 73,
+          "Roster Share": 91.8,
+          "Fantasy Points": 210.1
+        },
+        {
+          "Player": "Legree, Jesse",
+          "Team": "OreSt",
+          "Pos": "WR",
+          "Teams": 66,
+          "League Teams": 73,
+          "Roster Share": 90.4,
+          "Fantasy Points": 140.6
+        },
+        {
+          "Player": "Dixon, Collin",
+          "Team": "Ill",
+          "Pos": "WR",
+          "Teams": 63,
+          "League Teams": 73,
+          "Roster Share": 86.3,
+          "Fantasy Points": 92.7
+        },
+        {
+          "Player": "Atkinson, Braden",
+          "Team": "OreSt",
+          "Pos": "QB",
+          "Teams": 57,
+          "League Teams": 73,
+          "Roster Share": 78.1,
+          "Fantasy Points": 89.5
+        },
+        {
+          "Player": "Baugh, Jadan",
+          "Team": "Fla",
+          "Pos": "RB",
+          "Teams": 57,
+          "League Teams": 73,
+          "Roster Share": 78.1,
+          "Fantasy Points": 154.8
+        },
+        {
+          "Player": "Bishop, DeSean",
+          "Team": "Tenn",
+          "Pos": "RB",
+          "Teams": 55,
+          "League Teams": 73,
+          "Roster Share": 75.3,
+          "Fantasy Points": 61.7
+        },
+        {
+          "Player": "Harris, Reed",
+          "Team": "AzSt",
+          "Pos": "WR",
+          "Teams": 55,
+          "League Teams": 73,
+          "Roster Share": 75.3,
+          "Fantasy Points": 63.4
+        },
+        {
+          "Player": "Hawkins, Michael",
+          "Team": "WVU",
+          "Pos": "QB",
+          "Teams": 55,
+          "League Teams": 73,
+          "Roster Share": 75.3,
+          "Fantasy Points": 107.9
+        },
+        {
+          "Player": "Hernandez, Carlos",
+          "Team": "Wake",
+          "Pos": "WR",
+          "Teams": 55,
+          "League Teams": 73,
+          "Roster Share": 75.3,
+          "Fantasy Points": 81.8
+        },
+        {
+          "Player": "Riley, Dylan",
+          "Team": "Boise",
+          "Pos": "RB",
+          "Teams": 37,
+          "League Teams": 73,
+          "Roster Share": 50.7,
+          "Fantasy Points": 62.4
+        },
+        {
+          "Player": "Cook, Cameron",
+          "Team": "WVU",
+          "Pos": "RB",
+          "Teams": 35,
+          "League Teams": 73,
+          "Roster Share": 47.9,
+          "Fantasy Points": 68.8
+        },
+        {
+          "Player": "Parker, Wayshawn",
+          "Team": "Utah",
+          "Pos": "RB",
+          "Teams": 35,
+          "League Teams": 73,
+          "Roster Share": 47.9,
+          "Fantasy Points": 125.5
+        },
+        {
+          "Player": "Chambliss, Trinidad",
+          "Team": "Miss",
+          "Pos": "QB",
+          "Teams": 34,
+          "League Teams": 73,
+          "Roster Share": 46.6,
+          "Fantasy Points": 48.6
+        },
+        {
+          "Player": "Lee, Cayden",
+          "Team": "Mizzou",
+          "Pos": "WR",
+          "Teams": 34,
+          "League Teams": 73,
+          "Roster Share": 46.6,
+          "Fantasy Points": 22.4
+        },
+        {
+          "Player": "Becker, Charlie",
+          "Team": "Ind",
+          "Pos": "WR",
+          "Teams": 33,
+          "League Teams": 73,
+          "Roster Share": 45.2,
+          "Fantasy Points": 110.5
+        },
+        {
+          "Player": "Kienholz, Lincoln",
+          "Team": "Lou",
+          "Pos": "QB",
+          "Teams": 30,
+          "League Teams": 73,
+          "Roster Share": 41.1,
+          "Fantasy Points": 55.3
+        },
+        {
+          "Player": "Alexander, Hilton",
+          "Team": "Miss",
+          "Pos": "WR",
+          "Teams": 27,
+          "League Teams": 73,
+          "Roster Share": 37.0,
+          "Fantasy Points": 35.6
+        },
+        {
+          "Player": "Roberts, Jamal",
+          "Team": "Mizzou",
+          "Pos": "RB",
+          "Teams": 26,
+          "League Teams": 73,
+          "Roster Share": 35.6,
+          "Fantasy Points": 40.0
+        },
+        {
+          "Player": "Jackson, Tayven",
+          "Team": "NorTx",
+          "Pos": "QB",
+          "Teams": 22,
+          "League Teams": 73,
+          "Roster Share": 30.1,
+          "Fantasy Points": 40.25
+        },
+        {
+          "Player": "Hawkins, Caleb",
+          "Team": "OkSt",
+          "Pos": "RB",
+          "Teams": 19,
+          "League Teams": 73,
+          "Roster Share": 26.0,
+          "Fantasy Points": 42.1
+        },
+        {
+          "Player": "Knight, Wayne",
+          "Team": "UCLA",
+          "Pos": "RB",
+          "Teams": 18,
+          "League Teams": 73,
+          "Roster Share": 24.7,
+          "Fantasy Points": 49.0
+        },
+        {
+          "Player": "Lopez, Giovanni",
+          "Team": "Wake",
+          "Pos": "QB",
+          "Teams": 18,
+          "League Teams": 73,
+          "Roster Share": 24.7,
+          "Fantasy Points": 34.15
+        },
+        {
+          "Player": "Mestemaker, Drew",
+          "Team": "OkSt",
+          "Pos": "QB",
+          "Teams": 18,
+          "League Teams": 73,
+          "Roster Share": 24.7,
+          "Fantasy Points": 116.8
+        },
+        {
+          "Player": "Overton, Jeffrey",
+          "Team": "VaTec",
+          "Pos": "RB",
+          "Teams": 18,
+          "League Teams": 73,
+          "Roster Share": 24.7,
+          "Fantasy Points": 15.3
+        },
+        {
+          "Player": "Fifita, Noah",
+          "Team": "Ariz",
+          "Pos": "QB",
+          "Teams": 17,
+          "League Teams": 73,
+          "Roster Share": 23.3,
+          "Fantasy Points": 61.05
+        },
+        {
+          "Player": "Morrow, Chance",
+          "Team": "Buff",
+          "Pos": "WR",
+          "Teams": 13,
+          "League Teams": 73,
+          "Roster Share": 17.8,
+          "Fantasy Points": 3.7
+        },
+        {
+          "Player": "Sayin, Julian",
+          "Team": "OSU",
+          "Pos": "QB",
+          "Teams": 13,
+          "League Teams": 73,
+          "Roster Share": 17.8,
+          "Fantasy Points": 31.2
+        },
+        {
+          "Player": "Creel, Caden",
+          "Team": "JacSt",
+          "Pos": "QB",
+          "Teams": 11,
+          "League Teams": 73,
+          "Roster Share": 15.1,
+          "Fantasy Points": 28.55
+        },
+        {
+          "Player": "Davis, Kam",
+          "Team": "Lib",
+          "Pos": "RB",
+          "Teams": 11,
+          "League Teams": 73,
+          "Roster Share": 15.1,
+          "Fantasy Points": 12.7
+        },
+        {
+          "Player": "Daniels, Ashton",
+          "Team": "FlaSt",
+          "Pos": "QB",
+          "Teams": 10,
+          "League Teams": 73,
+          "Roster Share": 13.7,
+          "Fantasy Points": 28.95
+        },
+        {
+          "Player": "Osborne, Kalieb",
+          "Team": "UConn",
+          "Pos": "QB",
+          "Teams": 10,
+          "League Teams": 73,
+          "Roster Share": 13.7,
+          "Fantasy Points": 53.85
+        },
+        {
+          "Player": "Stokes, Marcus",
+          "Team": "Mem",
+          "Pos": "QB",
+          "Teams": 10,
+          "League Teams": 73,
+          "Roster Share": 13.7,
+          "Fantasy Points": 19.8
+        },
+        {
+          "Player": "Young, Wyatt",
+          "Team": "OkSt",
+          "Pos": "WR",
+          "Teams": 10,
+          "League Teams": 73,
+          "Roster Share": 13.7,
+          "Fantasy Points": 16.6
+        },
+        {
+          "Player": "Carter, Jaylin",
+          "Team": "Mem",
+          "Pos": "RB",
+          "Teams": 9,
+          "League Teams": 73,
+          "Roster Share": 12.3,
+          "Fantasy Points": 49.5
+        },
+        {
+          "Player": "Durr, Chris",
+          "Team": "MD",
+          "Pos": "WR",
+          "Teams": 9,
+          "League Teams": 73,
+          "Roster Share": 12.3,
+          "Fantasy Points": 5.5
+        },
+        {
+          "Player": "Weigman, Conner",
+          "Team": "Hou",
+          "Pos": "QB",
+          "Teams": 9,
+          "League Teams": 73,
+          "Roster Share": 12.3,
+          "Fantasy Points": 30.2
+        },
+        {
+          "Player": "Olugbode, Donovan",
+          "Team": "Mizzou",
+          "Pos": "WR",
+          "Teams": 8,
+          "League Teams": 73,
+          "Roster Share": 11.0,
+          "Fantasy Points": 12.1
+        },
+        {
+          "Player": "Russell, Keelon",
+          "Team": "Bama",
+          "Pos": "QB",
+          "Teams": 8,
+          "League Teams": 73,
+          "Roster Share": 11.0,
+          "Fantasy Points": 51.2
+        },
+        {
+          "Player": "Wood, Eli",
+          "Team": "UtSt",
+          "Pos": "WR",
+          "Teams": 8,
+          "League Teams": 73,
+          "Roster Share": 11.0,
+          "Fantasy Points": 20.4
+        },
+        {
+          "Player": "Flora, Aiden",
+          "Team": "IASt",
+          "Pos": "RB",
+          "Teams": 7,
+          "League Teams": 73,
+          "Roster Share": 9.6,
+          "Fantasy Points": 10.5
+        },
+        {
+          "Player": "Fuller, Matthew",
+          "Team": "SCar",
+          "Pos": "RB",
+          "Teams": 7,
+          "League Teams": 73,
+          "Roster Share": 9.6,
+          "Fantasy Points": 20.6
+        },
+        {
+          "Player": "Richardson, Tre",
+          "Team": "Lou",
+          "Pos": "WR",
+          "Teams": 7,
+          "League Teams": 73,
+          "Roster Share": 9.6,
+          "Fantasy Points": 1.0
+        },
+        {
+          "Player": "Komolafe, Caleb",
+          "Team": "NW",
+          "Pos": "RB",
+          "Teams": 6,
+          "League Teams": 73,
+          "Roster Share": 8.2,
+          "Fantasy Points": 10.4
+        },
+        {
+          "Player": "Walendzak, Connor",
+          "Team": "Toled",
+          "Pos": "RB",
+          "Teams": 6,
+          "League Teams": 73,
+          "Roster Share": 8.2,
+          "Fantasy Points": 34.0
+        },
+        {
+          "Player": "Hatcher, Umari",
+          "Team": "Syr",
+          "Pos": "WR",
+          "Teams": 5,
+          "League Teams": 73,
+          "Roster Share": 6.8,
+          "Fantasy Points": 26.6
+        },
+        {
+          "Player": "Kromah, Ousmane",
+          "Team": "FlaSt",
+          "Pos": "RB",
+          "Teams": 5,
+          "League Teams": 73,
+          "Roster Share": 6.8,
+          "Fantasy Points": 17.1
+        },
+        {
+          "Player": "Taylor, Darius",
+          "Team": "MIN",
+          "Pos": "RB",
+          "Teams": 5,
+          "League Teams": 73,
+          "Roster Share": 6.8,
+          "Fantasy Points": 46.3
+        },
+        {
+          "Player": "Thomas, Amare",
+          "Team": "Hou",
+          "Pos": "WR",
+          "Teams": 5,
+          "League Teams": 73,
+          "Roster Share": 6.8,
+          "Fantasy Points": 61.8
+        },
+        {
+          "Player": "Turner, JaKyrian",
+          "Team": "Pitt",
+          "Pos": "RB",
+          "Teams": 5,
+          "League Teams": 73,
+          "Roster Share": 6.8,
+          "Fantasy Points": 2.7
+        },
+        {
+          "Player": "Lacy, Kewan",
+          "Team": "Miss",
+          "Pos": "RB",
+          "Teams": 4,
+          "League Teams": 73,
+          "Roster Share": 5.5,
+          "Fantasy Points": 43.6
+        },
+        {
+          "Player": "Maiava, Jayden",
+          "Team": "USC",
+          "Pos": "QB",
+          "Teams": 4,
+          "League Teams": 73,
+          "Roster Share": 5.5,
+          "Fantasy Points": 100.05
+        },
+        {
+          "Player": "Messer, Easton",
+          "Team": "FlAtl",
+          "Pos": "WR",
+          "Teams": 4,
+          "League Teams": 73,
+          "Roster Share": 5.5,
+          "Fantasy Points": 45.6
+        },
+        {
+          "Player": "Sherrill, Junior",
+          "Team": "Vand",
+          "Pos": "WR",
+          "Teams": 4,
+          "League Teams": 73,
+          "Roster Share": 5.5,
+          "Fantasy Points": 10.5
+        },
+        {
+          "Player": "Toney, Malachi",
+          "Team": "MiaFL",
+          "Pos": "WR",
+          "Teams": 4,
+          "League Teams": 73,
+          "Roster Share": 5.5,
+          "Fantasy Points": 113.3
+        },
+        {
+          "Player": "Carr, CJ",
+          "Team": "ND",
+          "Pos": "QB",
+          "Teams": 3,
+          "League Teams": 73,
+          "Roster Share": 4.1,
+          "Fantasy Points": 27.15
+        },
+        {
+          "Player": "Coleman-Williams, Ryan",
+          "Team": "Bama",
+          "Pos": "WR",
+          "Teams": 3,
+          "League Teams": 73,
+          "Roster Share": 4.1,
+          "Fantasy Points": 6.9
+        },
+        {
+          "Player": "Johnson, Avery",
+          "Team": "K St",
+          "Pos": "QB",
+          "Teams": 3,
+          "League Teams": 73,
+          "Roster Share": 4.1,
+          "Fantasy Points": 21.0
+        },
+        {
+          "Player": "Jones, Dilin",
+          "Team": "LSU",
+          "Pos": "RB",
+          "Teams": 3,
+          "League Teams": 73,
+          "Roster Share": 4.1,
+          "Fantasy Points": 48.4
+        },
+        {
+          "Player": "Leavitt, Sam",
+          "Team": "LSU",
+          "Pos": "QB",
+          "Teams": 3,
+          "League Teams": 73,
+          "Roster Share": 4.1,
+          "Fantasy Points": 75.05
+        },
+        {
+          "Player": "Mohammed, Adam",
+          "Team": "Cal",
+          "Pos": "RB",
+          "Teams": 3,
+          "League Teams": 73,
+          "Roster Share": 4.1,
+          "Fantasy Points": 50.0
+        },
+        {
+          "Player": "Stevenson, Justin",
+          "Team": "NorTx",
+          "Pos": "WR",
+          "Teams": 3,
+          "League Teams": 73,
+          "Roster Share": 4.1,
+          "Fantasy Points": 33.2
+        },
+        {
+          "Player": "Thomas, Jaiden",
+          "Team": "UNLV",
+          "Pos": "RB",
+          "Teams": 3,
+          "League Teams": 73,
+          "Roster Share": 4.1,
+          "Fantasy Points": 47.5
+        },
+        {
+          "Player": "Williams, Aneyas",
+          "Team": "ND",
+          "Pos": "RB",
+          "Teams": 3,
+          "League Teams": 73,
+          "Roster Share": 4.1,
+          "Fantasy Points": 44.8
+        },
+        {
+          "Player": "Bowers, Cyncir",
+          "Team": "UConn",
+          "Pos": "RB",
+          "Teams": 2,
+          "League Teams": 73,
+          "Roster Share": 2.7,
+          "Fantasy Points": 17.2
+        },
+        {
+          "Player": "Dampier, Devon",
+          "Team": "Utah",
+          "Pos": "QB",
+          "Teams": 2,
+          "League Teams": 73,
+          "Roster Share": 2.7,
+          "Fantasy Points": 37.0
+        },
+        {
+          "Player": "Duff, KJ",
+          "Team": "Rut",
+          "Pos": "WR",
+          "Teams": 2,
+          "League Teams": 73,
+          "Roster Share": 2.7,
+          "Fantasy Points": 143.8
+        },
+        {
+          "Player": "Faison, Jordan",
+          "Team": "ND",
+          "Pos": "WR",
+          "Teams": 2,
+          "League Teams": 73,
+          "Roster Share": 2.7,
+          "Fantasy Points": 4.6
+        },
+        {
+          "Player": "Himon, Joe",
+          "Team": "NW",
+          "Pos": "RB",
+          "Teams": 2,
+          "League Teams": 73,
+          "Roster Share": 2.7,
+          "Fantasy Points": 4.2
+        },
+        {
+          "Player": "Jackson, Brad",
+          "Team": "TxSt",
+          "Pos": "QB",
+          "Teams": 2,
+          "League Teams": 73,
+          "Roster Share": 2.7,
+          "Fantasy Points": 75.8
+        },
+        {
+          "Player": "Jackson, Makai",
+          "Team": "Lib",
+          "Pos": "WR",
+          "Teams": 2,
+          "League Teams": 73,
+          "Roster Share": 2.7,
+          "Fantasy Points": 21.6
+        },
+        {
+          "Player": "James, Nolan",
+          "Team": "ND",
+          "Pos": "RB",
+          "Teams": 2,
+          "League Teams": 73,
+          "Roster Share": 2.7,
+          "Fantasy Points": 45.0
+        },
+        {
+          "Player": "Jennings, Kevin",
+          "Team": "SMU",
+          "Pos": "QB",
+          "Teams": 2,
+          "League Teams": 73,
+          "Roster Share": 2.7,
+          "Fantasy Points": 62.8
+        },
+        {
+          "Player": "Jones, James",
+          "Team": "NMS",
+          "Pos": "RB",
+          "Teams": 2,
+          "League Teams": 73,
+          "Roster Share": 2.7,
+          "Fantasy Points": 13.8
+        },
+        {
+          "Player": "Marsh, Nick",
+          "Team": "Ind",
+          "Pos": "WR",
+          "Teams": 2,
+          "League Teams": 73,
+          "Roster Share": 2.7,
+          "Fantasy Points": 65.5
+        },
+        {
+          "Player": "Marshall, Chris",
+          "Team": "Ark",
+          "Pos": "WR",
+          "Teams": 2,
+          "League Teams": 73,
+          "Roster Share": 2.7,
+          "Fantasy Points": 12.6
+        },
+        {
+          "Player": "Martin, Patrick",
+          "Team": "SoAl",
+          "Pos": "RB",
+          "Teams": 2,
+          "League Teams": 73,
+          "Roster Share": 2.7,
+          "Fantasy Points": 90.6
+        },
+        {
+          "Player": "Mizell, Isaiah",
+          "Team": "Ariz",
+          "Pos": "WR",
+          "Teams": 2,
+          "League Teams": 73,
+          "Roster Share": 2.7,
+          "Fantasy Points": 38.3
+        },
+        {
+          "Player": "Moore, Dakorien",
+          "Team": "Oreg",
+          "Pos": "WR",
+          "Teams": 2,
+          "League Teams": 73,
+          "Roster Share": 2.7,
+          "Fantasy Points": 51.8
+        },
+        {
+          "Player": "Moore, Dante",
+          "Team": "Oreg",
+          "Pos": "QB",
+          "Teams": 2,
+          "League Teams": 73,
+          "Roster Share": 2.7,
+          "Fantasy Points": 51.2
+        },
+        {
+          "Player": "Pettaway, George",
+          "Team": "JMU",
+          "Pos": "RB",
+          "Teams": 2,
+          "League Teams": 73,
+          "Roster Share": 2.7,
+          "Fantasy Points": 18.4
+        },
+        {
+          "Player": "Rule, Jamal",
+          "Team": "Neb",
+          "Pos": "RB",
+          "Teams": 2,
+          "League Teams": 73,
+          "Roster Share": 2.7,
+          "Fantasy Points": 37.1
+        },
+        {
+          "Player": "Sategna, Isaiah",
+          "Team": "Okla",
+          "Pos": "WR",
+          "Teams": 2,
+          "League Teams": 73,
+          "Roster Share": 2.7,
+          "Fantasy Points": 56.1
+        },
+        {
+          "Player": "Stafford, Jonathan",
+          "Team": "W Ky",
+          "Pos": "WR",
+          "Teams": 2,
+          "League Teams": 73,
+          "Roster Share": 2.7,
+          "Fantasy Points": 20.3
+        },
+        {
+          "Player": "Sutton, Lucky",
+          "Team": "SDSU",
+          "Pos": "RB",
+          "Teams": 2,
+          "League Teams": 73,
+          "Roster Share": 2.7,
+          "Fantasy Points": 33.0
+        },
+        {
+          "Player": "Turner-Bradshaw, Xayvion",
+          "Team": "Marsh",
+          "Pos": "WR",
+          "Teams": 2,
+          "League Teams": 73,
+          "Roster Share": 2.7,
+          "Fantasy Points": 0.7
+        },
+        {
+          "Player": "Williams, Demond",
+          "Team": "Wash",
+          "Pos": "QB",
+          "Teams": 2,
+          "League Teams": 73,
+          "Roster Share": 2.7,
+          "Fantasy Points": 102.6
+        },
+        {
+          "Player": "Winfield, DWayne Lunch",
+          "Team": "ULLaf",
+          "Pos": "QB",
+          "Teams": 2,
+          "League Teams": 73,
+          "Roster Share": 2.7,
+          "Fantasy Points": 94.4
+        },
+        {
+          "Player": "Anderson, Maguire",
+          "Team": "FLInt",
+          "Pos": "WR",
+          "Teams": 1,
+          "League Teams": 73,
+          "Roster Share": 1.4,
+          "Fantasy Points": 39.6
+        },
+        {
+          "Player": "Bachmeier, Bear",
+          "Team": "BYU",
+          "Pos": "QB",
+          "Teams": 1,
+          "League Teams": 73,
+          "Roster Share": 1.4,
+          "Fantasy Points": 102.65
+        },
+        {
+          "Player": "Bailey, Deuce",
+          "Team": "CoCar",
+          "Pos": "QB",
+          "Teams": 1,
+          "League Teams": 73,
+          "Roster Share": 1.4,
+          "Fantasy Points": 9.75
+        },
+        {
+          "Player": "Beebe, Lee",
+          "Team": "Ind",
+          "Pos": "RB",
+          "Teams": 1,
+          "League Teams": 73,
+          "Roster Share": 1.4,
+          "Fantasy Points": 21.3
+        },
+        {
+          "Player": "Bothwell, Fluff",
+          "Team": "MissSt",
+          "Pos": "RB",
+          "Teams": 1,
+          "League Teams": 73,
+          "Roster Share": 1.4,
+          "Fantasy Points": 82.9
+        },
+        {
+          "Player": "Brown, Byrum",
+          "Team": "Aub",
+          "Pos": "QB",
+          "Teams": 1,
+          "League Teams": 73,
+          "Roster Share": 1.4,
+          "Fantasy Points": 73.0
+        },
+        {
+          "Player": "Buckley, Jalen",
+          "Team": "WestMI",
+          "Pos": "RB",
+          "Teams": 1,
+          "League Teams": 73,
+          "Roster Share": 1.4,
+          "Fantasy Points": 16.5
+        },
+        {
+          "Player": "Clark, Ty",
+          "Team": "Wake",
+          "Pos": "RB",
+          "Teams": 1,
+          "League Teams": 73,
+          "Roster Share": 1.4,
+          "Fantasy Points": 37.3
+        },
+        {
+          "Player": "Crowther, D.J.",
+          "Team": "SoFL",
+          "Pos": "RB",
+          "Teams": 1,
+          "League Teams": 73,
+          "Roster Share": 1.4,
+          "Fantasy Points": 38.3
+        },
+        {
+          "Player": "Davison, Jordon",
+          "Team": "Oreg",
+          "Pos": "RB",
+          "Teams": 1,
+          "League Teams": 73,
+          "Roster Share": 1.4,
+          "Fantasy Points": 55.2
+        },
+        {
+          "Player": "Ferguson Jr., Damon",
+          "Team": "Pitt",
+          "Pos": "RB",
+          "Teams": 1,
+          "League Teams": 73,
+          "Roster Share": 1.4,
+          "Fantasy Points": 11.6
+        },
+        {
+          "Player": "Frazier, Nate",
+          "Team": "UGA",
+          "Pos": "RB",
+          "Teams": 1,
+          "League Teams": 73,
+          "Roster Share": 1.4,
+          "Fantasy Points": 52.6
+        },
+        {
+          "Player": "Haynes, Justice",
+          "Team": "GATec",
+          "Pos": "RB",
+          "Teams": 1,
+          "League Teams": 73,
+          "Roster Share": 1.4,
+          "Fantasy Points": 91.9
+        },
+        {
+          "Player": "Heintschel, Mason",
+          "Team": "Pitt",
+          "Pos": "QB",
+          "Teams": 1,
+          "League Teams": 73,
+          "Roster Share": 1.4,
+          "Fantasy Points": 57.3
+        },
+        {
+          "Player": "Henderson, Will",
+          "Team": "UTSA",
+          "Pos": "RB",
+          "Teams": 1,
+          "League Teams": 73,
+          "Roster Share": 1.4,
+          "Fantasy Points": 85.4
+        },
+        {
+          "Player": "Hill, Dierre",
+          "Team": "Oreg",
+          "Pos": "RB",
+          "Teams": 1,
+          "League Teams": 73,
+          "Roster Share": 1.4,
+          "Fantasy Points": 6.9
+        },
+        {
+          "Player": "Houser, Katin",
+          "Team": "Ill",
+          "Pos": "QB",
+          "Teams": 1,
+          "League Teams": 73,
+          "Roster Share": 1.4,
+          "Fantasy Points": 21.1
+        },
+        {
+          "Player": "Ijeboi, Fame",
+          "Team": "Pur",
+          "Pos": "RB",
+          "Teams": 1,
+          "League Teams": 73,
+          "Roster Share": 1.4,
+          "Fantasy Points": 47.6
+        },
+        {
+          "Player": "Jackson, JaKobi",
+          "Team": "OSU",
+          "Pos": "RB",
+          "Teams": 1,
+          "League Teams": 73,
+          "Roster Share": 1.4,
+          "Fantasy Points": 10.4
+        },
+        {
+          "Player": "Lucas, Josiah",
+          "Team": "SDSU",
+          "Pos": "RB",
+          "Teams": 1,
+          "League Teams": 73,
+          "Roster Share": 1.4,
+          "Fantasy Points": 3.9
+        },
+        {
+          "Player": "Martin, LJ",
+          "Team": "BYU",
+          "Pos": "RB",
+          "Teams": 1,
+          "League Teams": 73,
+          "Roster Share": 1.4,
+          "Fantasy Points": 56.6
+        },
+        {
+          "Player": "Miller, Omarion",
+          "Team": "AzSt",
+          "Pos": "WR",
+          "Teams": 1,
+          "League Teams": 73,
+          "Roster Share": 1.4,
+          "Fantasy Points": 13.8
+        },
+        {
+          "Player": "Mosley, Trent",
+          "Team": "USC",
+          "Pos": "WR",
+          "Teams": 1,
+          "League Teams": 73,
+          "Roster Share": 1.4,
+          "Fantasy Points": 45.1
+        },
+        {
+          "Player": "Raphael, Kendrick",
+          "Team": "SMU",
+          "Pos": "RB",
+          "Teams": 1,
+          "League Teams": 73,
+          "Roster Share": 1.4,
+          "Fantasy Points": 35.1
+        },
+        {
+          "Player": "Raymond, Antwan",
+          "Team": "Rut",
+          "Pos": "RB",
+          "Teams": 1,
+          "League Teams": 73,
+          "Roster Share": 1.4,
+          "Fantasy Points": 93.1
+        },
+        {
+          "Player": "Reed, Marcel",
+          "Team": "TxAM",
+          "Pos": "QB",
+          "Teams": 1,
+          "League Teams": 73,
+          "Roster Share": 1.4,
+          "Fantasy Points": 84.3
+        },
+        {
+          "Player": "Reynolds, Luke",
+          "Team": "VaTec",
+          "Pos": "TE",
+          "Teams": 1,
+          "League Teams": 73,
+          "Roster Share": 1.4,
+          "Fantasy Points": 9.8
+        },
+        {
+          "Player": "Richard, Turbo",
+          "Team": "Ind",
+          "Pos": "RB",
+          "Teams": 1,
+          "League Teams": 73,
+          "Roster Share": 1.4,
+          "Fantasy Points": 1.0
+        },
+        {
+          "Player": "Roebuck, Dezmen",
+          "Team": "Wash",
+          "Pos": "WR",
+          "Teams": 1,
+          "League Teams": 73,
+          "Roster Share": 1.4,
+          "Fantasy Points": 31.15
+        },
+        {
+          "Player": "Rogers, DeAree",
+          "Team": "NIU",
+          "Pos": "WR",
+          "Teams": 1,
+          "League Teams": 73,
+          "Roster Share": 1.4,
+          "Fantasy Points": 15.1
+        },
+        {
+          "Player": "Sagapolutele, Jaron-Keawe",
+          "Team": "Cal",
+          "Pos": "QB",
+          "Teams": 1,
+          "League Teams": 73,
+          "Roster Share": 1.4,
+          "Fantasy Points": 93.0
+        },
+        {
+          "Player": "Scott, Duke",
+          "Team": "NCSt",
+          "Pos": "RB",
+          "Teams": 1,
+          "League Teams": 73,
+          "Roster Share": 1.4,
+          "Fantasy Points": 64.9
+        },
+        {
+          "Player": "Scudero, Danny",
+          "Team": "Colo",
+          "Pos": "WR",
+          "Teams": 1,
+          "League Teams": 73,
+          "Roster Share": 1.4,
+          "Fantasy Points": 8.8
+        },
+        {
+          "Player": "Sparks, Beau",
+          "Team": "TxSt",
+          "Pos": "WR",
+          "Teams": 1,
+          "League Teams": 73,
+          "Roster Share": 1.4,
+          "Fantasy Points": 49.5
+        },
+        {
+          "Player": "Stewart, Evan",
+          "Team": "Oreg",
+          "Pos": "WR",
+          "Teams": 1,
+          "League Teams": 73,
+          "Roster Share": 1.4,
+          "Fantasy Points": 18.4
+        },
+        {
+          "Player": "Taylor, Kamario",
+          "Team": "MissSt",
+          "Pos": "QB",
+          "Teams": 1,
+          "League Teams": 73,
+          "Roster Share": 1.4,
+          "Fantasy Points": 164.4
+        },
+        {
+          "Player": "Weaver, Cole",
+          "Team": "Syr",
+          "Pos": "WR",
+          "Teams": 1,
+          "League Teams": 73,
+          "Roster Share": 1.4,
+          "Fantasy Points": 8.1
+        },
+        {
+          "Player": "Wilde, Griffin",
+          "Team": "NW",
+          "Pos": "WR",
+          "Teams": 1,
+          "League Teams": 73,
+          "Roster Share": 1.4,
+          "Fantasy Points": 84.5
+        }
+      ],
+      "last_updated": "2026-10-11T16:18:36.617750+00:00"
     }
   }
 }
